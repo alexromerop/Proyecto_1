@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1360351468649779391}
   - component: {fileID: 3662154917112257427}
   - component: {fileID: 4205345441383284127}
+  - component: {fileID: 4370137079314109393}
+  - component: {fileID: -7121600068324979754}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -80,6 +82,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!81 &4370137079314109393
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2651548798447921974}
+  m_Enabled: 1
+--- !u!168 &-7121600068324979754
+AudioEchoFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2651548798447921974}
+  m_Enabled: 1
+  m_Delay: 500
+  m_DecayRatio: 0.5
+  m_WetMix: 1
+  m_DryMix: 1
 --- !u!1 &8599964255718569024
 GameObject:
   m_ObjectHideFlags: 0
