@@ -24,7 +24,10 @@ public class Player_movment : MonoBehaviour
         // if fly == true
         vertical = Input.GetAxisRaw("Vertical");
 
-        Debug.DrawRay(transform.position, Vector3.down*1.0f, Color.red);
+        if (horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+        else if (horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+
+
         if (Physics2D.Raycast(transform.position, Vector3.down, 0.22f))
         {
             in_ground = true;
