@@ -58,5 +58,17 @@ public class Player_movment : MonoBehaviour
     {
         Rigidbody2D.velocity = new Vector2(horizontal, vertical);
     }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Plataform"))
+            this.transform.parent = collision.transform;
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Plataform"))
+            this.transform.parent = null;
+    }
 }
 
