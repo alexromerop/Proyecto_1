@@ -543,6 +543,7 @@ MonoBehaviour:
   - {fileID: 1654002409}
   - {fileID: 1263076152}
   - {fileID: 2054591502}
+  - {fileID: 2054591502}
   CurrentControl: {fileID: 1654002409}
 --- !u!1 &1263076152
 GameObject:
@@ -604,7 +605,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 43f93ac590ae8be42a634b61c047bed9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3335e76e9fa8e974983b017491a1eab2, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -642,8 +643,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00822819, y: 0.012049258}
-  m_Size: {x: 1.0822824, y: 1.0562307}
+  m_Offset: {x: -0.0041587353, y: 0.007979751}
+  m_Size: {x: 0.47185898, y: 0.47185898}
   m_Direction: 0
 --- !u!50 &1263076156
 Rigidbody2D:
@@ -703,10 +704,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 152891353}
     m_Modifications:
+    - target: {fileID: 9066746450418172504, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3335e76e9fa8e974983b017491a1eab2,
+        type: 3}
+    - target: {fileID: 9066746450418172504, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066746450418172504, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3.1904762
+      objectReference: {fileID: 0}
     - target: {fileID: 9066746450418172505, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Name
       value: Enemy_Skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066746450418172506, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066746450418172506, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.003980145
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066746450418172506, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.4881368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066746450418172506, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.4881368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066746450418172506, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.00015927851
       objectReference: {fileID: 0}
     - target: {fileID: 9066746450418172507, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}

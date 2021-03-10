@@ -19,8 +19,8 @@ public class Skeleton : MonoBehaviour
             float distance = Mathf.Abs(Prota.transform.position.x - transform.position.x);
             if (distance < 2.0f)
             {
-                if (direction.x >= 0.0f) transform.localScale = new Vector3(0.16f, 0.34f, 1.0f);
-                else transform.localScale = new Vector3(-0.16f, 0.34f, 1.0f);
+                if (direction.x >= 0.0f) transform.localScale = new Vector3(1f, 1f, 1.0f);
+                else transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
             }
             if (distance < 1.5f && Time.time > LastShoot + 1f)
             {
