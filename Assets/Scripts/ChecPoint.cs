@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ChecPoint : MonoBehaviour
 {
-   private void OnTriggerEnter2D(Collider2D vollision)
+   private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<PlayerRespawn>().ReachedCheckPoint(transform.position.x,transfor.position.y);
+            collision.GetComponent<PlayerRespawn>().ReachedCheckPoint(transform.position.x,transform.position.y);
         }
     }
 }

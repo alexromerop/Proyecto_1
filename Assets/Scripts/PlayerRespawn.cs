@@ -13,7 +13,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         if (PlayerPrefs.GetFloat("checkPointPositionX")!=0)
         {
-            transform.position=(new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY")))
+            transform.position = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY")));
         }
     }
 

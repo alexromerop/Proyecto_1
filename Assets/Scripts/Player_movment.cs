@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_movment : MonoBehaviour
 {
 
+    public bool death;
 
     
     public enum Controller { Default, Rat, Skeleton, Zombie };
@@ -54,8 +56,11 @@ public class Player_movment : MonoBehaviour
         {
             Jump();
         }
-        
 
+        if (Input.GetKeyDown("c"))
+        {
+            death = true;
+        }
 
     //habilidades segun enemigos
     }
