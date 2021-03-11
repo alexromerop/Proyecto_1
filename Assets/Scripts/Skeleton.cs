@@ -9,13 +9,13 @@ public class Skeleton : MonoBehaviour
     public GameObject Skeleton_;
 
 
-    private Vector3 direction;
-    private float distance;
+    //private Vector3 direction;
+    //private float distance;
     private float LastShoot;
 
     public void Start()
     {
-        direction = Prota.transform.position - transform.position;
+        //direction = Prota.transform.position - transform.position;
     }
     public void Update()
     {
@@ -28,9 +28,6 @@ public class Skeleton : MonoBehaviour
                 LastShoot = Time.time;
             }
         }
-
-      
-    
     }
     private void Shoot()
     {
@@ -41,8 +38,8 @@ public class Skeleton : MonoBehaviour
         else direction = Vector3.left;
 
         GameObject instBullet = Instantiate(Bullet, transform.position + direction*0.1f, Quaternion.identity);
-        Bullet.GetComponents<BulletScript>().SetDirection(direction);
+        instBullet.GetComponent<BulletScript>().SetDirection(direction);
     }
 
-    }
+}
 
