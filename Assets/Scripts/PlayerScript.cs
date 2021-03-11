@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour
 {
     // Start is called before the first frame update
     public ControlScript control;
+
     public enum Possesions
     {
         Rat,
@@ -14,7 +15,7 @@ public class PlayerScript : MonoBehaviour
     }
     void OnMouseDown()
     {
-        control.Posses(this.gameObject);
+        control.Posses(gameObject);
         GetComponent<Player_movment>().enabled = true;
     }
 }

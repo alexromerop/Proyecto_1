@@ -8,6 +8,7 @@ public class ControlScript : MonoBehaviour
     public GameObject[] CanControl;
     [SerializeField]
     GameObject CurrentControl;
+    public CameraClamp camera;
     void Start()
     {
         for (int i =1; i < CanControl.Length; i++)
@@ -23,6 +24,7 @@ public class ControlScript : MonoBehaviour
     {
         CurrentControl.GetComponent<Player_movment>().enabled = false;
         CurrentControl = player;
+        camera.SetTarget(player);
     }
     
 }

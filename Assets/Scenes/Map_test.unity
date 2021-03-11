@@ -719,7 +719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c780708b0f5778a41995d0a553d11f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personaje: {fileID: 1654002409}
+  player: {fileID: 1654002409}
   leftx: -5
   rightx: 5
   upy: 0
@@ -773,6 +773,7 @@ MonoBehaviour:
   - {fileID: 2054591502}
   - {fileID: 995163529}
   CurrentControl: {fileID: 1654002409}
+  camera: {fileID: 772283495}
 --- !u!114 &985178199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1861,6 +1862,11 @@ PrefabInstance:
       propertyPath: control
       value: 
       objectReference: {fileID: 985178198}
+    - target: {fileID: 676288784845341770, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 772283495}
     - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Enabled

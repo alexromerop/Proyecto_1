@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   control: {fileID: 0}
+  camera: {fileID: 0}
 --- !u!114 &8517944794023011330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae9aa6e793e8824482c368bd0df3b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prota: {fileID: 0}
-  Bullet: {fileID: 3923016416415558688, guid: 65fc8b49c0e04fb40a2e7266525fe018, type: 3}
+  Prota: {fileID: 6852692347369694097, guid: f7200c9dde9552e479a4cb4d548b0f75, type: 3}
+  Bullet: {fileID: 4817568267178910462, guid: 65fc8b49c0e04fb40a2e7266525fe018, type: 3}
   Skeleton_: {fileID: 8517944794023011353}
