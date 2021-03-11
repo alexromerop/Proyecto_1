@@ -12,17 +12,19 @@ public class Skeleton : MonoBehaviour
     //private Vector3 direction;
     //private float distance;
     private float LastShoot;
+    private Rigidbody2D Rigidbody2D;
+    
 
     public void Start()
     {
-        //direction = Prota.transform.position - transform.position;
+        Rigidbody2D = GetComponent<Rigidbody2D>();
     }
     public void Update()
     {
         Player_movment variable = GetComponent<Player_movment>();
         if ( GetComponent<Player_movment>().enabled == true)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.E))
+            if ((Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.E)) && Time.time> LastShoot + 0.3f)
             {
                 Shoot();
                 LastShoot = Time.time;

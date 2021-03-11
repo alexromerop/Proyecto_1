@@ -9,15 +9,14 @@ public class Player_movment : MonoBehaviour
    
 
     
-    public enum Controller { Default, Rat, Skeleton, Zombie };
-    public Controller controller = Controller.Default;
+  
     public float Speed;
     public float JumpForce;
     public bool in_control;
 
     Rigidbody2D Rigidbody2D;
     private float horizontal;
-    private float vertical;
+    
 
         
     public bool in_ground;
@@ -36,8 +35,8 @@ public class Player_movment : MonoBehaviour
     horizontal = Input.GetAxisRaw("Horizontal");
         
         //añadir voladores en controller.loquesea
-        if (controller == Controller.Default)
-            vertical = Input.GetAxisRaw("Vertical");
+     
+        
 
         //flip body
         if (horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
@@ -46,7 +45,7 @@ public class Player_movment : MonoBehaviour
         
 
 
-       if (Physics2D.Raycast(transform.position, Vector3.down, 0.25f))
+       if (Physics2D.Raycast(transform.position, Vector3.down, 0.4f))
         {
             in_ground = true;
         }
@@ -76,7 +75,7 @@ public class Player_movment : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = new Vector2(horizontal, vertical);
+        Rigidbody2D.velocity = new Vector2(horizontal, Rigidbody2D.velocity.y);
     }
 
     //para estarse en la posicion 
