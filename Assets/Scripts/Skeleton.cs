@@ -9,14 +9,20 @@ public class Skeleton : MonoBehaviour
     public GameObject Skeleton_;
 
 
+    private Vector3 direction;
+    private float distance;
     private float LastShoot;
+
+    public void Start()
+    {
+        direction = Prota.transform.position - transform.position;
+    }
     public void Update()
     {
         Player_movment variable = GetComponent<Player_movment>();
         if (variable.in_control == false)
         {
-            Vector3 direction = Prota.transform.position - transform.position;
-            float distance = Mathf.Abs(Prota.transform.position.x - transform.position.x);
+            distance = Mathf.Abs(Prota.transform.position.x - transform.position.x);
             if (distance < 2.0f)
             {
                 if (direction.x >= 0.0f) transform.localScale = new Vector3(1f, 1f, 1.0f);
@@ -32,12 +38,11 @@ public class Skeleton : MonoBehaviour
     private void Shoot()
     {
         Debug.Log("Shoot");
+
+        GameObject instBullet = Instantiate(Bullet, transform.position, transform.rotation);
+        Rigidbody2D instBulletRigidbody = instBullet.GetComponent<Rigidbody2D>();
+        instBulletRigidbody.velocity = direction * 2;
     }
-
-
-
-
-
 
     }
 

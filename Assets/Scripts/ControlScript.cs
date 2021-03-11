@@ -24,4 +24,5 @@ public class ControlScript : MonoBehaviour
         CurrentControl.GetComponent<Player_movment>().enabled = false;
         CurrentControl = player;
     }
+    
 }
