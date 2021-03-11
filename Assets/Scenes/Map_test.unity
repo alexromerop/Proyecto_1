@@ -261,6 +261,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: JumpForce
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011330, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: Prota
@@ -432,9 +437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40691589cf6f36a45993571e573918e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prota: {fileID: 1654002409}
-  Enemy_Skeleton: {fileID: 0}
-  whichAvatarIsOn: 1
 --- !u!1001 &288947906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -859,6 +861,7 @@ GameObject:
   - component: {fileID: 1654002415}
   - component: {fileID: 1654002416}
   - component: {fileID: 1654002417}
+  - component: {fileID: 1654002418}
   m_Layer: 0
   m_Name: Prota
   m_TagString: Player
@@ -980,9 +983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadf59034135a9b4a866c4f2d53ddd76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 0
   Speed: 1
-  JumpForce: 750
+  JumpForce: 150
   in_control: 0
   in_ground: 0
   Health: 1
@@ -1028,6 +1030,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a641456bcf45a9d48aae37d86af5e738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1654002418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654002409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f734f2b08eea8134cb1b9a869dd28cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1742546841
@@ -1871,6 +1885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: JumpForce
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011330, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
