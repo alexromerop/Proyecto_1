@@ -20,28 +20,28 @@ public class Skeleton : MonoBehaviour
     public void Update()
     {
         Player_movment variable = GetComponent<Player_movment>();
-        if (variable.in_control == false)
+        if ( GetComponent<Player_movment>().enabled == true)
         {
-            distance = Mathf.Abs(Prota.transform.position.x - transform.position.x);
-            if (distance < 2.0f)
-            {
-                if (direction.x >= 0.0f) transform.localScale = new Vector3(1f, 1f, 1.0f);
-                else transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-            }
-            if (distance < 1.5f && Time.time > LastShoot + 1f)
+            if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.E))
             {
                 Shoot();
                 LastShoot = Time.time;
             }
         }
+
+      
+    
     }
     private void Shoot()
     {
         Debug.Log("Shoot");
 
-        GameObject instBullet = Instantiate(Bullet, transform.position, transform.rotation);
-        Rigidbody2D instBulletRigidbody = instBullet.GetComponent<Rigidbody2D>();
-        instBulletRigidbody.velocity = direction * 2;
+        Vector3 direction;
+        if (GetComponent<Player_movment>().transform.localScale.x == 1.0f) direction = Vector3.right;
+        else direction = Vector3.left;
+
+        GameObject instBullet = Instantiate(Bullet, transform.position + direction*0.1f, Quaternion.identity);
+        Bullet.GetComponents<BulletScript>().SetDirection(direction);
     }
 
     }

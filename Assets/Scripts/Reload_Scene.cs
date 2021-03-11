@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Reload_Scene : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class Reload_Scene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-            Application.LoadLevel(Application.loadedLevel);
+            SceneManager.LoadScene("Map_test");
         }
     }
 }

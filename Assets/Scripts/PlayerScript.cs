@@ -6,7 +6,12 @@ public class PlayerScript : MonoBehaviour
 {
     // Start is called before the first frame update
     public ControlScript control;
-
+    public enum Possesions
+    {
+        Rat,
+        Skeleton,
+        Zombie
+    }
     void OnMouseDown()
     {
         control.Posses(this.gameObject);
