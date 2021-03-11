@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player_movment : MonoBehaviour
 {
 
-    public bool death;
+   
 
     
     public enum Controller { Default, Rat, Skeleton, Zombie };
@@ -22,6 +22,8 @@ public class Player_movment : MonoBehaviour
         
     public bool in_ground;
 
+
+    public int Health = 1;
     
     void Start()
     {
@@ -59,7 +61,7 @@ public class Player_movment : MonoBehaviour
 
         if (Input.GetKeyDown("c"))
         {
-            death = true;
+            Hit();
         }
 
     //habilidades segun enemigos
@@ -87,6 +89,11 @@ public class Player_movment : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Plataform"))
             this.transform.parent = null;
+    }
+    public void Hit()
+    {
+        Health = Health - 1;
+        if (Health == 0) Destroy(gameObject);
     }
 }
 
