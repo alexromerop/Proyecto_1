@@ -4,27 +4,35 @@ using UnityEngine;
 
 public class ControlScript : MonoBehaviour
 {
-
     public GameObject[] CanControl;
     [SerializeField]
     GameObject CurrentControl;
-    public CameraClamp camera;
+    public new CameraClamp camera;
     void Start()
     {
-        for (int i =1; i < CanControl.Length; i++)
+        for (int i = 1; i < CanControl.Length; i++)
         {
             CanControl[i].GetComponent<Player_movment>().enabled = false;
         }
 
         CurrentControl = CanControl[0];
     }
-
-    // Update is called once per frame
     public void Posses(GameObject player)
     {
         CurrentControl.GetComponent<Player_movment>().enabled = false;
+        //CurrentControl.GetComponent<CapsuleCollider2D>().enabled = false;
+        if (CurrentControl == CanControl[0])
+        {
+            //CurrentControl.transform.position = player.transform.position;
+        }
         CurrentControl = player;
         camera.SetTarget(player);
     }
-    
+
+    public void UnPosses()
+    {
+        CurrentControl.GetComponent<Player_movment>().enabled = false;
+        CurrentControl = CanControl[0];
+        camera.SetTarget(CanControl[0]);
+    }
 }

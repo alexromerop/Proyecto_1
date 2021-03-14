@@ -8,16 +8,10 @@ public class Skeleton : MonoBehaviour
     public GameObject Bullet;
     public GameObject Skeleton_;
 
-
-    //private Vector3 direction;
-    //private float distance;
     private float LastShoot;
-    private Rigidbody2D Rigidbody2D;
-    
-
     public void Start()
     {
-        Rigidbody2D = GetComponent<Rigidbody2D>();
+        
     }
     public void Update()
     {

@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6852692347369694100}
   - component: {fileID: 6852692347369694101}
   - component: {fileID: 6852692347369694102}
+  - component: {fileID: 2645212517649257531}
+  - component: {fileID: 4117197731127076456}
   m_Layer: 0
   m_Name: Player_Default
   m_TagString: Untagged
@@ -134,8 +136,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadf59034135a9b4a866c4f2d53ddd76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 0
   Speed: 1
-  JumpForce: 750
+  JumpForce: 150
   in_control: 0
   in_ground: 1
+  Health: 1
+--- !u!114 &2645212517649257531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852692347369694097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f734f2b08eea8134cb1b9a869dd28cf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4117197731127076456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852692347369694097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a641456bcf45a9d48aae37d86af5e738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

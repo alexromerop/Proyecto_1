@@ -82,17 +82,25 @@ public class Player_movment : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Plataform"))
-            this.transform.parent = collision.transform;
+            transform.parent = collision.transform;
+
+        if (collision.gameObject.tag.Equals("Bullet")){
+            if (!gameObject.tag.Equals("Enemy"))
+            {
+                Hit();
+                Destroy(collision.gameObject);
+            }
+        }   
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Plataform"))
-            this.transform.parent = null;
+            transform.parent = null;
     }
     public void Hit()
     {
         Health = Health - 1;
-        if (Health == 0) Destroy(gameObject);
+        if (Health == 0) Debug.Log("Dead");
     }
 }
 

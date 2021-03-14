@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8517944794023011330}
   m_Layer: 0
   m_Name: Enemy_Skeleton
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,9 +135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadf59034135a9b4a866c4f2d53ddd76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 0
   Speed: 1
-  JumpForce: 750
+  JumpForce: 150
   in_control: 0
   in_ground: 1
   Health: 1
@@ -154,7 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   control: {fileID: 0}
-  camera: {fileID: 0}
+  speed: 3
+  player: {fileID: 0}
 --- !u!114 &8517944794023011330
 MonoBehaviour:
   m_ObjectHideFlags: 0
