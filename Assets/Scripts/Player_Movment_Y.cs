@@ -18,6 +18,7 @@ public class Player_Movment_Y : MonoBehaviour
     void Update()
     {
         vertical = Input.GetAxisRaw("Vertical");
+
     }
 
     private void FixedUpdate()
