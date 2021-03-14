@@ -53,7 +53,7 @@ public class Player_movment : MonoBehaviour
        
 
 
-        if (Input.GetKeyDown("space")&& in_ground)
+        if (Input.GetKeyDown("space")&& in_ground && !gameObject.tag.Equals("Player"))
         {
             Jump();
         }
