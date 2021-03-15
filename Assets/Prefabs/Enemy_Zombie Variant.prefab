@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9200a9d9592de8d4ab9e3c8ea2baea9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prota: {fileID: 0}
-  Box: {fileID: 0}
-  zombie: {fileID: 0}
+  Prota: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833, type: 3}
+  Box: {fileID: 8637241444988765899, guid: 4ecb225648f51be4f9e4ee732a28c9c2, type: 3}
+  zombie: {fileID: 6555396750543998649}
   horizontal: 0
+  zombie_pos: {x: 0, y: 0}
 --- !u!1001 &3228134484533439136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48,12 +49,14 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833,
+        type: 3}
     - target: {fileID: 676288784845341770, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: control
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
+        type: 3}
     - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Enabled
