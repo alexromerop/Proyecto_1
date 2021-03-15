@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
+
+    public GameObject[] CanMove;
+    [SerializeField]
     public GameObject Prota;
     public GameObject Box;
     public GameObject zombie;
@@ -17,6 +20,7 @@ public class Zombie : MonoBehaviour
     public void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
+        
     }
     public void Update()
     {
@@ -44,9 +48,9 @@ public class Zombie : MonoBehaviour
                 Box.transform.SetParent(zombie.transform);
                 Box.GetComponent<Rigidbody2D>().bodyType++;
                 Box.GetComponent<Rigidbody2D>().bodyType++;
-                Box.transform.position = zombie_pos;
+                transform.position = zombie.transform.position;
 
-                //Box.GetComponent<Rigidbody2D>().gravityScale = 1000;
+
 
             }
         }
@@ -54,14 +58,14 @@ public class Zombie : MonoBehaviour
         {
             if (Physics2D.Raycast(transform.position, Vector3.right, 0.8f))
             {
-                //Box.GetComponent<Rigidbody2D>().gravityScale = 1000;
+                
               
                 Box.transform.SetParent(zombie.transform);
                //Box.GetComponent<Rigidbody2D>().bodyType++;
                 //Box.GetComponent<Rigidbody2D>().bodyType++;
                 Box.transform.position = zombie_pos + new Vector2(0, 0.3f);
 
-                // Box.transform.position = new Vector3(9, 2, 1);
+                
 
 
 
