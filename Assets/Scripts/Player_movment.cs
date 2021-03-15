@@ -15,7 +15,7 @@ public class Player_movment : MonoBehaviour
     public bool in_control;
 
     Rigidbody2D Rigidbody2D;
-    private float horizontal;
+    public float horizontal;
     
 
         
