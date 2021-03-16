@@ -1603,13 +1603,13 @@ PrefabInstance:
     - target: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
         type: 3}
       propertyPath: CanControl.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
         type: 3}
       propertyPath: CurrentControl
       value: 
-      objectReference: {fileID: 1654002409}
+      objectReference: {fileID: 0}
     - target: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
         type: 3}
       propertyPath: camera
@@ -1619,20 +1619,25 @@ PrefabInstance:
         type: 3}
       propertyPath: CanControl.Array.data[0]
       value: 
-      objectReference: {fileID: 1201247551}
+      objectReference: {fileID: 1654002409}
     - target: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
         type: 3}
       propertyPath: CanControl.Array.data[1]
       value: 
-      objectReference: {fileID: 744850939}
+      objectReference: {fileID: 1201247551}
     - target: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
         type: 3}
       propertyPath: CanControl.Array.data[2]
       value: 
-      objectReference: {fileID: 1076940133}
+      objectReference: {fileID: 744850939}
     - target: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
         type: 3}
       propertyPath: CanControl.Array.data[3]
+      value: 
+      objectReference: {fileID: 1076940133}
+    - target: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
+        type: 3}
+      propertyPath: CanControl.Array.data[4]
       value: 
       objectReference: {fileID: 1279520509}
     - target: {fileID: 6597089409810815946, guid: 94a4a7a9b50b9024890b03dff85b546f,
