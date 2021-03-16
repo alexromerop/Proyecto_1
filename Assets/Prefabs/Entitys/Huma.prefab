@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2f19f639d0fbd3842826e9b8ed89d149, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9150943, g: 0.5178123, b: 0.07338022, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -133,4 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86eb2ef680406c4892dfdd3939ad2e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prota: {fileID: 0}
+  Prota: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833, type: 3}
+  Bullet: {fileID: 4817568267178910462, guid: 65fc8b49c0e04fb40a2e7266525fe018, type: 3}

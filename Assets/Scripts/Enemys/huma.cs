@@ -30,7 +30,7 @@ public class huma : MonoBehaviour
         if (transform.localScale.x == 1.0f) direction = Vector3.right;
         else direction = Vector3.left;
 
-        GameObject instBullet = Instantiate(Bullet, transform.position + direction * 0.1f, Quaternion.identity);
+        GameObject instBullet = Instantiate(Bullet, transform.position + direction * 0.2f, Quaternion.identity);
         instBullet.GetComponent<BulletScript>().SetDirection(direction);
     }
 

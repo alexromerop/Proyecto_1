@@ -564,6 +564,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_TagString
+      value: Controlable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 216c3d2dc13cbd645b6f20eedeb42a16, type: 3}
 --- !u!4 &465708354 stripped
@@ -745,7 +750,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1
+  orthographic size: 1.4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -799,6 +804,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 152891353}
     m_Modifications:
+    - target: {fileID: 604074699380311050, guid: 1bf004b3d5941994db332378b8d36664,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6886792
+      objectReference: {fileID: 0}
+    - target: {fileID: 604074699380311050, guid: 1bf004b3d5941994db332378b8d36664,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.45385435
+      objectReference: {fileID: 0}
+    - target: {fileID: 604074699380311050, guid: 1bf004b3d5941994db332378b8d36664,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.07471521
+      objectReference: {fileID: 0}
     - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: Prota
@@ -813,12 +833,12 @@ PrefabInstance:
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.874477
+      value: 3.032
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36377215
+      value: -0.184
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
@@ -1012,12 +1032,12 @@ PrefabInstance:
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.39340162
+      value: -0.311
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.444587
+      value: 1.452
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
@@ -1047,7 +1067,7 @@ PrefabInstance:
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
@@ -1533,6 +1553,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_Skeleton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 216c3d2dc13cbd645b6f20eedeb42a16, type: 3}
@@ -2623,8 +2648,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048947659}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.665, y: -0.028, z: 5.217209}
-  m_LocalScale: {x: 2.7404935, y: 3.4193335, z: 1}
+  m_LocalPosition: {x: 15.59, y: -0.13, z: 5.217209}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 152891353}
   m_RootOrder: 7
@@ -2680,7 +2705,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1

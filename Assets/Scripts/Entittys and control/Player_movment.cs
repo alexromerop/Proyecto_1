@@ -85,11 +85,10 @@ public class Player_movment : MonoBehaviour
             transform.parent = collision.transform;
 
         if (collision.gameObject.tag.Equals("Bullet")){
-            if (!gameObject.tag.Equals("Enemy"))
-            {
+            if(gameObject.tag.Equals("Player"))
                 Hit();
-                Destroy(collision.gameObject);
-            }
+               // Destroy(collision.gameObject);
+            
         }   
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -101,6 +100,9 @@ public class Player_movment : MonoBehaviour
     {
         Health = Health - 1;
         if (Health == 0) Debug.Log("Dead");
+
+        //poner un  as muerto y un boton para reinicar el nivel, en otro void y en el update un if heal<=0
+        SceneManager.LoadScene("Map_test");
     }
 }
 

@@ -9,12 +9,12 @@ public class BulletScript : MonoBehaviour
     private Rigidbody2D rigidbody2d;
     private Vector2 Direction;
 
-   
+
 
     // Start is called before the first frame update
     void Start()
     {
-       rigidbody2d = GetComponent<Rigidbody2D>();
+        rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -25,5 +25,9 @@ public class BulletScript : MonoBehaviour
     public void SetDirection(Vector3 direction)
     {
         Direction = direction;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
     }
 }
