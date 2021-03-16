@@ -34,5 +34,6 @@ public class ControlScript : MonoBehaviour
         CurrentControl.GetComponent<Player_movment>().enabled = false;
         CurrentControl = CanControl[0];
         camera.SetTarget(CanControl[0]);
+        CurrentControl.SetActive(true);
     }
 }

@@ -1237,13 +1237,29 @@ PrefabInstance:
         type: 3}
       propertyPath: Prota
       value: 
-      objectReference: {fileID: 1654002409}
-    - target: {fileID: 7297962435767740514, guid: b378dc16202c07e4dbcf3efed187ad0f,
+      objectReference: {fileID: 1149994175}
+    - target: {fileID: 8457344360065449563, guid: b378dc16202c07e4dbcf3efed187ad0f,
         type: 3}
-      propertyPath: Box
-      value: 
-      objectReference: {fileID: 1389837432}
-    m_RemovedComponents: []
+      propertyPath: m_Offset.x
+      value: 0.013077736
+      objectReference: {fileID: 0}
+    - target: {fileID: 8457344360065449563, guid: b378dc16202c07e4dbcf3efed187ad0f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.13133335
+      objectReference: {fileID: 0}
+    - target: {fileID: 8457344360065449563, guid: b378dc16202c07e4dbcf3efed187ad0f,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.017258465
+      objectReference: {fileID: 0}
+    - target: {fileID: 8457344360065449563, guid: b378dc16202c07e4dbcf3efed187ad0f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.3519982
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b378dc16202c07e4dbcf3efed187ad0f, type: 3}
 --- !u!4 &1103231385 stripped
 Transform:
@@ -1300,6 +1316,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1467260573}
     m_Modifications:
+    - target: {fileID: 8637241444988765896, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8637241444988765897, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1364,6 +1385,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637241444988765911, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637241444988765911, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
+        type: 3}
+      propertyPath: m_Simulated
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ecb225648f51be4f9e4ee732a28c9c2, type: 3}

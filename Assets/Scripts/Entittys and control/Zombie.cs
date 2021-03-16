@@ -16,86 +16,83 @@ public class Zombie : MonoBehaviour
     public int Health = 1;
 
 
-
+    private GameObject boxTaken;
     private float LastShoot;
+    private bool taken;
     public void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
-        
+        taken = false;
     }
     public void Update()
     {
         
         if (GetComponent<Player_movment>().enabled == true)
         {
+            
             if (Input.GetKeyDown(KeyCode.E) /*&& Time.time > LastShoot + 0.3f*/)
             {
-                Take_box();
-                //LastShoot = Time.time;
+                if (boxTaken != null)
+                {
+                    LeaveBox(boxTaken);
+                }
             }
 
             zombie_pos = transform.position;
         }
         horizontal = GetComponent<Player_movment>().horizontal;
     }
-    private void Take_box()
+    private void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.gameObject.tag.Equals("Cogible"))
+        {
+            boxTaken = other.gameObject;
+            if (Input.GetKey(KeyCode.E) && !taken){
+                TakeBox(other.gameObject);
+                Debug.Log("Take");
+                taken = true;
+            }
+        }
+
+        if (other.gameObject.tag.Equals("Bullet"))
+        {
+            if (gameObject.tag.Equals("Enemy"))
+                Health -= 1;
+            if (Health == 0)
+            {
+                Debug.Log("Dead");
+                Destroy(gameObject);
+            }
+        }
+    }
+    private void TakeBox(GameObject box)
+    {
+        box.GetComponent<Rigidbody2D>().position = zombie.GetComponent<Rigidbody2D>().position;
+
+        box.transform.SetParent(zombie.transform);
+        box.GetComponent<Rigidbody2D>().simulated = false;
         if (horizontal < 0.0f)
         {
             if (Physics2D.Raycast(transform.position, Vector3.left, 0.8f))
             {
-                Box.GetComponent<Rigidbody2D>().position = zombie.GetComponent<Rigidbody2D>().position;
-
-                Box.transform.SetParent(zombie.transform);
-                Box.GetComponent<Rigidbody2D>().bodyType++;
-                Box.GetComponent<Rigidbody2D>().bodyType++;
                 transform.position = zombie.transform.position;
-
-
-
             }
         }
         if (horizontal > 0.0f)
         {
             if (Physics2D.Raycast(transform.position, Vector3.right, 0.8f))
             {
-                
-              
-                Box.transform.SetParent(zombie.transform);
-               //Box.GetComponent<Rigidbody2D>().bodyType++;
-                //Box.GetComponent<Rigidbody2D>().bodyType++;
-                Box.transform.position = zombie_pos + new Vector2(0, 0.3f);
-
-                
-
-
-
                 transform.position = zombie.transform.position;
-                    
             }
         }
-                   
-
-        
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void LeaveBox(GameObject box)
     {
-
-        if (collision.gameObject.tag.Equals("Bullet"))
-        {
-            if (gameObject.tag.Equals("Enemy"))
-                Health -= 1;
-            if (Health == 0)
-            {
-
-                Debug.Log("Dead");
-                Destroy(gameObject);
-            }
-
-
-
-
-        }
+        box.GetComponent<Rigidbody2D>().position = transform.position;
+        box.GetComponent<Rigidbody2D>().simulated = true;
+        box.transform.parent = null;
+        taken = false;
     }
 }
 

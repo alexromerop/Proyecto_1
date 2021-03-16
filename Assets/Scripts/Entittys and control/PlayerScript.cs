@@ -28,5 +28,6 @@ public class PlayerScript : MonoBehaviour
         control.Posses(gameObject);
         GetComponent<Player_movment>().enabled = true;
         player.GetComponent<Rigidbody2D>().AddForce(new Vector2(speedX, speedY), ForceMode2D.Impulse);
+        player.SetActive(false);
     }
 }
