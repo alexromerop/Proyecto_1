@@ -58,7 +58,7 @@ public class Player_movment : MonoBehaviour
             Jump();
         }
 
-        if (Input.GetKeyDown("c"))
+        if (Input.GetKeyDown("r"))
         {
             Hit();
         }
@@ -75,7 +75,7 @@ public class Player_movment : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = new Vector2(horizontal, Rigidbody2D.velocity.y);
+        Rigidbody2D.velocity = new Vector2(horizontal*Speed, Rigidbody2D.velocity.y);
     }
 
     //para estarse en la posicion 
@@ -98,7 +98,7 @@ public class Player_movment : MonoBehaviour
     }
     public void Hit()
     {
-        Health = Health - 1;
+        Health-= 1;
         if (Health == 0) Debug.Log("Dead");
 
         //poner un  as muerto y un boton para reinicar el nivel, en otro void y en el update un if heal<=0

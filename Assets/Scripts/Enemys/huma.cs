@@ -6,6 +6,9 @@ public class huma : MonoBehaviour
 {
     public GameObject Prota;
     public GameObject Bullet;
+    public int Health = 1;
+    private Player_movment _hit;
+
 
     private float LastShoot;
     private void Update()
@@ -34,5 +37,22 @@ public class huma : MonoBehaviour
         instBullet.GetComponent<BulletScript>().SetDirection(direction);
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+        if (collision.gameObject.tag.Equals("Bullet"))
+        {
+            if (gameObject.tag.Equals("Enemy"))
+                Health -= 1;
+            if (Health == 0) {
+                
+                Debug.Log("Dead Enemy");
+                Destroy(gameObject);
+            }
 
+
+           
+
+        }
+    }
 }

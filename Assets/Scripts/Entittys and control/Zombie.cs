@@ -13,6 +13,7 @@ public class Zombie : MonoBehaviour
     Rigidbody2D Rigidbody2D;
     public float horizontal;
     public Vector2 zombie_pos;
+    public int Health = 1;
 
 
 
@@ -76,6 +77,25 @@ public class Zombie : MonoBehaviour
                    
 
         
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.tag.Equals("Bullet"))
+        {
+            if (gameObject.tag.Equals("Enemy"))
+                Health -= 1;
+            if (Health == 0)
+            {
+
+                Debug.Log("Dead");
+                Destroy(gameObject);
+            }
+
+
+
+
+        }
     }
 }
 

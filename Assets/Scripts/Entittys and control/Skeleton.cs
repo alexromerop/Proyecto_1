@@ -7,6 +7,7 @@ public class Skeleton : MonoBehaviour
     public GameObject Prota;
     public GameObject Bullet;
     public GameObject Skeleton_;
+    public int Health = 1;
 
     private float LastShoot;
     public void Start()
@@ -36,6 +37,24 @@ public class Skeleton : MonoBehaviour
         GameObject instBullet = Instantiate(Bullet, transform.position + direction*0.2f, Quaternion.identity);
         instBullet.GetComponent<BulletScript>().SetDirection(direction);
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
 
+        if (collision.gameObject.tag.Equals("Bullet"))
+        {
+            if (gameObject.tag.Equals("Enemy"))
+                Health -= 1;
+            if (Health == 0)
+            {
+
+                Debug.Log("Dead Enemy");
+                Destroy(gameObject);
+            }
+
+
+
+
+        }
+    }
 }
 

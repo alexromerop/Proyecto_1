@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1264877370989928502}
   - component: {fileID: 1264877370989928501}
   m_Layer: 0
-  m_Name: Prota
+  m_Name: Player_Default
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadf59034135a9b4a866c4f2d53ddd76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
+  Speed: 2
   JumpForce: 150
   in_control: 0
   horizontal: 0
@@ -202,3 +202,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f734f2b08eea8134cb1b9a869dd28cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 2

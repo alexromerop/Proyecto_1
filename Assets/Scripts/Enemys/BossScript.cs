@@ -7,7 +7,8 @@ public class BossScript : MonoBehaviour
    
     public float Speed;
     Rigidbody2D Rigidbody2D;
-   
+    public int Health = 1;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,25 @@ public class BossScript : MonoBehaviour
             this.transform.localScale = new Vector2(this.transform.localScale.x * -1, this.transform.localScale.y);
         }
     }
-   }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.tag.Equals("Bullet"))
+        {
+           // if (gameObject.tag.Equals("Enemy"))
+           //     Health -= 1;
+            if (Health == 0)
+            {
+
+                Debug.Log("Dead");
+                Destroy(gameObject);
+            }
+
+
+
+
+        }
+    }
+}
   
 

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player_Movment_Y : MonoBehaviour
 {
+    public float Speed;
+
     private float vertical;
     Rigidbody2D Rigidbody2D;
 
@@ -27,7 +29,7 @@ public class Player_Movment_Y : MonoBehaviour
         {
             GetComponent<Rigidbody2D>().gravityScale=2;
             
-                Rigidbody2D.velocity = new Vector2(Rigidbody2D.velocity.x, vertical);
+                Rigidbody2D.velocity = new Vector2(Rigidbody2D.velocity.x, vertical*Speed);
         }
     }
 }

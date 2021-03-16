@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanMove:
   - {fileID: 0}
-  Prota: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833, type: 3}
-  Box: {fileID: 8637241444988765899, guid: 4ecb225648f51be4f9e4ee732a28c9c2, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  Prota: {fileID: 0}
+  Box: {fileID: 0}
   zombie: {fileID: 6555396750543998649}
   horizontal: 0
   zombie_pos: {x: 0, y: 0}
@@ -51,33 +53,41 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 676288784845341770, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: control
       value: 
-      objectReference: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f,
+      objectReference: {fileID: 0}
+    - target: {fileID: 676288784845341770, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: Speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.561
+      value: 9.2
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.442
+      value: -0.659
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.651703
+      value: 13.868912
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
