@@ -82,7 +82,7 @@ public class Zombie : MonoBehaviour
     }
     private void TakeBox(GameObject box)
     {
-        box.GetComponent<Rigidbody2D>().position = zombie.GetComponent<Rigidbody2D>().position;
+        //box.GetComponent<Rigidbody2D>().position = zombie.GetComponent<Rigidbody2D>().position;
 
         
         
@@ -106,8 +106,9 @@ public class Zombie : MonoBehaviour
 
     private void LeaveBox(GameObject box)
     {
+        box.AddComponent<Rigidbody2D>();
         box.GetComponent<Rigidbody2D>().position = transform.position;
-        box.GetComponent<Rigidbody2D>().simulated = true;
+        //box.GetComponent<Rigidbody2D>().simulated = true;
         box.transform.parent = null;
         taken = false;
     }
