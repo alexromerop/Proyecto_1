@@ -406,6 +406,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1471788741}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af155a6b765538b49b1257da39cfd14c, type: 3}
 --- !u!1001 &288947906
@@ -1649,6 +1669,18 @@ Transform:
   m_Father: {fileID: 2093244843}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1471788741 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7055522018333694193, guid: 3f890255e286f8e4db6f705fd5566d36,
+    type: 3}
+  m_PrefabInstance: {fileID: 8890252076079467191}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a686e04a97a3b64598f25e28e76404d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1479550105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,7 +1705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479550105}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.1092687, y: 3.397241, z: -2.796801}
+  m_LocalPosition: {x: 7.1092687, y: 2.05, z: -2.796801}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2093244843}
@@ -2747,8 +2779,8 @@ Transform:
   - {fileID: 1467260573}
   - {fileID: 1921097683}
   - {fileID: 302164493}
-  - {fileID: 1292073453}
   - {fileID: 229280178}
+  - {fileID: 1292073453}
   - {fileID: 1479550106}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -3651,7 +3683,7 @@ PrefabInstance:
     - target: {fileID: 5792067499891658782, guid: c664a04b68901974abc7a1a7883f1356,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.03
       objectReference: {fileID: 0}
     - target: {fileID: 5792067499891658782, guid: c664a04b68901974abc7a1a7883f1356,
         type: 3}
@@ -3681,7 +3713,7 @@ PrefabInstance:
     - target: {fileID: 5792067499891658782, guid: c664a04b68901974abc7a1a7883f1356,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5792067499891658782, guid: c664a04b68901974abc7a1a7883f1356,
         type: 3}
@@ -3982,7 +4014,7 @@ PrefabInstance:
     - target: {fileID: 3884418058554667313, guid: 3f890255e286f8e4db6f705fd5566d36,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3884418058554667313, guid: 3f890255e286f8e4db6f705fd5566d36,
         type: 3}
@@ -4014,6 +4046,12 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1479550105}
+    - target: {fileID: 7055522018333694193, guid: 3f890255e286f8e4db6f705fd5566d36,
+        type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 5792067499891658781, guid: c664a04b68901974abc7a1a7883f1356,
+        type: 3}
     - target: {fileID: 8496194805293076322, guid: 3f890255e286f8e4db6f705fd5566d36,
         type: 3}
       propertyPath: m_Name

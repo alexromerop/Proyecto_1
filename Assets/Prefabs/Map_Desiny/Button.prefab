@@ -94,4 +94,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a686e04a97a3b64598f25e28e76404d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 5792067499891658781, guid: c664a04b68901974abc7a1a7883f1356, type: 3}
+  door: {fileID: 0}
+  target: {fileID: 0}
