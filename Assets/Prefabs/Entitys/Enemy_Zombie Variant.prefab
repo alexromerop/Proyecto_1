@@ -21,6 +21,7 @@ MonoBehaviour:
   zombie: {fileID: 6555396750543998649}
   horizontal: 0
   zombie_pos: {x: 0, y: 0}
+  Health: 1
 --- !u!1001 &3228134484533439136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,6 +134,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_Zombie Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_TagString
+      value: Controlable
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8517944794023011330, guid: 216c3d2dc13cbd645b6f20eedeb42a16, type: 3}

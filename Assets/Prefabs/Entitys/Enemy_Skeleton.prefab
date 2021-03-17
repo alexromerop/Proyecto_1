@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8517944794023011330}
   m_Layer: 0
   m_Name: Enemy_Skeleton
-  m_TagString: Enemy
+  m_TagString: Controlable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,3 +171,4 @@ MonoBehaviour:
   Prota: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833, type: 3}
   Bullet: {fileID: 4817568267178910462, guid: 65fc8b49c0e04fb40a2e7266525fe018, type: 3}
   Skeleton_: {fileID: 8517944794023011353}
+  Health: 1

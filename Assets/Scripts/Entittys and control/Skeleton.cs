@@ -40,7 +40,7 @@ public class Skeleton : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.tag.Equals("Bullet"))
+        if (collision.gameObject.tag.Equals("Bullet") || collision.gameObject.tag.Equals("Enemy"))
         {
             if (gameObject.tag.Equals("Enemy"))
                 Health -= 1;
