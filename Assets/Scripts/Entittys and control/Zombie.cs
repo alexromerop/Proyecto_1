@@ -16,9 +16,10 @@ public class Zombie : MonoBehaviour
     public int Health = 1;
 
 
-    private GameObject boxTaken;
+    private GameObject boxTaken = null;
     private float LastShoot;
     private bool taken;
+    public float timetotake = 0;
     public void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -26,18 +27,27 @@ public class Zombie : MonoBehaviour
     }
     public void Update()
     {
-        
+        float delta = Time.deltaTime * 1000;
+        if (timetotake > 0)
+        {
+            timetotake -= delta;
+            if (timetotake <= 0)
+            {
+                timetotake = 0;
+            }
+        }
         if (GetComponent<Player_movment>().enabled == true)
         {
-            
-            if (Input.GetKeyDown(KeyCode.E) && Time.time > LastShoot + 0.3f)
+            if (boxTaken != null)
             {
-                if (boxTaken != null)
-                {
+                if (Input.GetKeyDown(KeyCode.E)&& timetotake==0)
+                   {
+                
                     LeaveBox(boxTaken);
-                    LastShoot = Time.time;
+                    timetotake = 500;
                 }
             }
+
 
             zombie_pos = transform.position;
         }
@@ -49,15 +59,15 @@ public class Zombie : MonoBehaviour
         Debug.Log("trigger");
         if (other.gameObject.tag.Equals("Cogible"))
         {
-            if(!taken)
-            boxTaken = other.gameObject;
-            if (Input.GetKey(KeyCode.E) && !taken)
+            
+            if (Input.GetKeyDown(KeyCode.E) && !taken && timetotake==0)
             {
                 //other.gameObject.GetComponent<BoxCollider2D>().enabled= false;
                 TakeBox(other.gameObject);
                 Debug.Log("Take");
                 taken = true;
                 other.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+                timetotake = 500;
             }
         }
     }
@@ -100,7 +110,8 @@ public class Zombie : MonoBehaviour
             
         }
         box.transform.SetParent(zombie.transform);
-        box.GetComponent<Rigidbody2D>().simulated = false;
+        box.GetComponent<Rigidbody2D>().isKinematic= true;
+        boxTaken = box;
 
     }
 
@@ -108,9 +119,10 @@ public class Zombie : MonoBehaviour
     {
         //box.AddComponent<Rigidbody2D>();
         box.GetComponent<Rigidbody2D>().position = transform.position;
-        box.GetComponent<Rigidbody2D>().simulated = true;
-        box.transform.parent = null;
+        box.GetComponent<Rigidbody2D>().isKinematic = false;
+        box.transform.SetParent(null);
         taken = false;
+        boxTaken = null;
     }
 }
 
