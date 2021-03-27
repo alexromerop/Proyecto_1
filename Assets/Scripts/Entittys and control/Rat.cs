@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Skeleton: MonoBehaviour
+public class Rat : MonoBehaviour
 {
     public GameObject Prota;
-    public GameObject Bullet;
-
     public int Health = 1;
-
+    public bool in_wall= false;
+    
     private float LastShoot;
     public void Start()
     {
@@ -21,22 +20,30 @@ public class Skeleton: MonoBehaviour
         {
             if ((Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.E)) && Time.time> LastShoot + 0.3f)
             {
-                Shoot();
+                
                 LastShoot = Time.time;
             }
         }
+        if (Physics2D.Raycast(transform.position, Vector3.right, 0.16f))
+        {
+            if (in_wall == false)
+                transform.Rotate(0, 0, 90);
+            in_wall = true;
+        }
+        else if (Physics2D.Raycast(transform.position, Vector3.left, 0.16f))
+        {
+            if(in_wall==false)
+            transform.Rotate(0, 0, -90);
+            in_wall = true;
+        }
+        else in_wall = false;
+        if (transform.rotation.z != 0)
+        {
+            if (in_wall == false)
+                transform.Rotate(0, 0, -90);
+        }
     }
-    private void Shoot()
-    {
-        Debug.Log("Shoot");
-
-        Vector3 direction;
-        if (GetComponent<Player_movment>().transform.localScale.x == 1.0f) direction = Vector3.right;
-        else direction = Vector3.left;
-
-        GameObject instBullet = Instantiate(Bullet, transform.position + direction*0.2f, Quaternion.identity);
-        instBullet.GetComponent<BulletScript>().SetDirection(direction);
-    }
+   
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
