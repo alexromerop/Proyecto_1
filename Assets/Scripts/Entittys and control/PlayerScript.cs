@@ -21,6 +21,7 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKeyDown("g")){
             control.UnPosses();
             control.CanControl[0].GetComponent<Player_movment>().enabled = true;
+            //player.transform.position = control.transform.position;
         }
     }
     void OnMouseDown()

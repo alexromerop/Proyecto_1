@@ -45,7 +45,7 @@ public class Player_movment : MonoBehaviour
         
 
 
-       if (Physics2D.Raycast(transform.position, Vector3.down, 0.4f))
+       if (Physics2D.Raycast(transform.position, Vector3.down, 0.2f))
         {
             in_ground = true;
         }
