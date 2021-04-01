@@ -16,8 +16,6 @@ public class PlayerScript : MonoBehaviour
     }
     void Update()
     {
-        speedX = (transform.position.x - player.transform.position.x) * speed;
-        speedY = (transform.position.y - player.transform.position.y) * speed;
         if (Input.GetKeyDown("g")){
             control.UnPosses();
             control.CanControl[0].GetComponent<Player_movment>().enabled = true;
@@ -28,7 +26,6 @@ public class PlayerScript : MonoBehaviour
     {
         control.Posses(gameObject);
         GetComponent<Player_movment>().enabled = true;
-        player.GetComponent<Rigidbody2D>().AddForce(new Vector2(speedX, speedY), ForceMode2D.Impulse);
         player.SetActive(false);
     }
 }

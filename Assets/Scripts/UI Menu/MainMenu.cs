@@ -7,10 +7,10 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject menu;
     // Start is called before the first frame update
-    public void StartGame()
+    public void ChangeScene(string scene)
     {
-        SceneManager.LoadScene("Map_test", LoadSceneMode.Single);
-        Debug.Log("PLAY!");
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+        Debug.Log("Choose Level!");
     }
 
     public void GoToCilckedButton(GameObject label)
