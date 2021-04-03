@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af03502c710131e4cadd4d9cb9b65def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prota: {fileID: 0}
+  Prota: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833, type: 3}
   Health: 1
   in_wall: 0
   vertical: 0
@@ -72,7 +72,8 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833,
+        type: 3}
     - target: {fileID: 6454263921390343419, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Offset.x
@@ -157,6 +158,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy_Rat Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8517944794023011330, guid: 216c3d2dc13cbd645b6f20eedeb42a16, type: 3}

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7729572506063768425}
   - component: {fileID: 676288784845341770}
   - component: {fileID: 8517944794023011330}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_Skeleton
   m_TagString: Controlable
   m_Icon: {fileID: 0}
@@ -153,9 +153,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6182679de87d7ba4c910b3282d79c368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: {fileID: 0}
+  control: {fileID: 6597089409810815944, guid: 94a4a7a9b50b9024890b03dff85b546f, type: 3}
   speed: 3
-  player: {fileID: 0}
+  player: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833, type: 3}
 --- !u!114 &8517944794023011330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,5 +170,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prota: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833, type: 3}
   Bullet: {fileID: 4817568267178910462, guid: 65fc8b49c0e04fb40a2e7266525fe018, type: 3}
-  Skeleton_: {fileID: 8517944794023011353}
   Health: 1

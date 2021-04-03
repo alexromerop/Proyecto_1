@@ -17,7 +17,7 @@ public class ScreenEdgeCollider : MonoBehaviour
 
         edge = GetComponent<EdgeCollider2D>();
 
-        edgePoints = new Vector2[5];
+        edgePoints = new Vector2[4];
 
         AddCollider();
     }
@@ -35,7 +35,7 @@ public class ScreenEdgeCollider : MonoBehaviour
         edgePoints[1] = topLeft;
         edgePoints[2] = topRight;
         edgePoints[3] = bottomRight;
-        edgePoints[4] = bottomLeft;
+        //edgePoints[4] = bottomLeft;
 
         edge.points = edgePoints;
     }
