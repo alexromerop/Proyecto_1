@@ -25,4 +25,10 @@ public class GameManagerSingleton : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void CompleteLevel(int level)
+    {
+        if(levelAccess < level)
+            levelAccess = level;
+    }
 }

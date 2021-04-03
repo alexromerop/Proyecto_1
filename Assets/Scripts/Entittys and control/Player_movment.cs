@@ -95,11 +95,10 @@ public class Player_movment : MonoBehaviour
             if (gameObject.tag.Equals("Controlable"))
             {
                 Hit_fisico();
-               
-    
             }
-
         }
+        if (collision.gameObject.tag.Equals("Infinite"))
+            Debug.Log("Respawn on Checkpoint, Reload Scene");
 }
     private void OnCollisionExit2D(Collision2D collision)
     {

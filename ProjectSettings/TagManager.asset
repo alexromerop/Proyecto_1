@@ -10,6 +10,7 @@ TagManager:
   - Cogible
   - Controlable
   - Pinchos
+  - Inifinite
   layers:
   - Default
   - TransparentFX

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ControlScript : MonoBehaviour
 {
     public GameObject[] CanControl;
-    [SerializeField]
+    //[SerializeField]
     public GameObject CurrentControl;
     public new CameraClamp camera;
     void Start()

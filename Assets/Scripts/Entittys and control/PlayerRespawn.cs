@@ -7,7 +7,7 @@ public class PlayerRespawn : MonoBehaviour
 
     private float checkPointPositionX, checkPointPositionY;
 
-
+    
 
     void Start()
     {
@@ -15,12 +15,13 @@ public class PlayerRespawn : MonoBehaviour
         {
             transform.position = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY")));
         }
+
     }
 
     public void ReachedCheckPoint(float x, float y)
     {
         PlayerPrefs.SetFloat("checkPointPositionX",x);
-        PlayerPrefs.SetFloat("checkPointPositionY", y);
+        PlayerPrefs.SetFloat("checkPointPositionY",y);
     }
     
 }

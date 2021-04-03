@@ -26,10 +26,6 @@ public class Rat : MonoBehaviour
                 
                 LastShoot = Time.time;
             }
-            
-
-
-
         }
         if (Physics2D.Raycast(transform.position, Vector3.right, 0.16f))
         {
