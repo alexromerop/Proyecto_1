@@ -16,7 +16,8 @@ public class PlayerScript : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown("g")){
+        if (Input.GetKeyDown("g")|| GetComponent<Player_movment>().Health<=0)
+        {
             control.UnPosses();
             control.CanControl[0].GetComponent<Player_movment>().enabled = true;
             //player.transform.position = control.transform.position;

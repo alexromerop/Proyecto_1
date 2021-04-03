@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player_movment : MonoBehaviour
 {
 
-   
+
 
     
   
@@ -62,6 +62,7 @@ public class Player_movment : MonoBehaviour
         {
             Hit();
         }
+       
 
     //habilidades segun enemigos
     }
@@ -84,13 +85,22 @@ public class Player_movment : MonoBehaviour
         if (collision.gameObject.tag.Equals("Plataform"))
             transform.parent = collision.transform;
 
-        if (collision.gameObject.tag.Equals("Bullet")){
-            if(gameObject.tag.Equals("Player"))
+        if (collision.gameObject.tag.Equals("Bullet")) {
+            if (gameObject.tag.Equals("Player"))
                 Hit();
-               // Destroy(collision.gameObject);
-            
-        }   
-    }
+            // Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag.Equals("Pinchos"))
+        {
+            if (gameObject.tag.Equals("Controlable"))
+            {
+                Hit_fisico();
+                //Destroy(gameObject);
+    
+            }
+
+        }
+}
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Plataform"))
@@ -103,6 +113,13 @@ public class Player_movment : MonoBehaviour
 
         //poner un  as muerto y un boton para reinicar el nivel, en otro void y en el update un if heal<=0
         SceneManager.LoadScene("Map_test");
+    }
+    public void Hit_fisico()
+    {
+        Health -= 1;
+        if (Health == 0) Debug.Log("Dead");
+
+        
     }
 }
 

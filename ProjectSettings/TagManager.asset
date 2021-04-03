@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Cogible
   - Controlable
+  - Pinchos
   layers:
   - Default
   - TransparentFX
