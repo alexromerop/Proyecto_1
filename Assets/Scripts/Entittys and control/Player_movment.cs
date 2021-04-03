@@ -95,7 +95,7 @@ public class Player_movment : MonoBehaviour
             if (gameObject.tag.Equals("Controlable"))
             {
                 Hit_fisico();
-                //Destroy(gameObject);
+               
     
             }
 

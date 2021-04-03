@@ -6,7 +6,7 @@ public class ControlScript : MonoBehaviour
 {
     public GameObject[] CanControl;
     [SerializeField]
-    GameObject CurrentControl;
+    public GameObject CurrentControl;
     public new CameraClamp camera;
     void Start()
     {
