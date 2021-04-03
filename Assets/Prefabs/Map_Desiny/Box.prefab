@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8637241444988765911}
   - component: {fileID: 1389837437}
   - component: {fileID: 8637241444988765896}
-  - component: {fileID: -9153944856704367202}
   m_Layer: 0
   m_Name: Box
   m_TagString: Cogible
@@ -158,15 +157,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.47999978, y: 0.24}
   m_EdgeRadius: 0
---- !u!114 &-9153944856704367202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8637241444988765899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65bd7027735ba8a4699c848f108e32ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

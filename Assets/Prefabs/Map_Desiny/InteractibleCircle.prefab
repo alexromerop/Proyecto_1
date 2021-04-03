@@ -67,7 +67,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7055522018333694193, guid: 3f890255e286f8e4db6f705fd5566d36,
           type: 3}
-        m_MethodName: OpenDoor
+        m_MethodName: MoveObject
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

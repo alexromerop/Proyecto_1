@@ -27,7 +27,7 @@ public class DropedDMGObject : MonoBehaviour
         
 
        if (collision.gameObject.tag.Equals("Enemy"))
-        {
+       {
 
             //if (in_ground == false) 
             {
@@ -37,6 +37,6 @@ public class DropedDMGObject : MonoBehaviour
 
 
 
-        }
+       }
     }
 }

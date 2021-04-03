@@ -6,18 +6,37 @@ public class ButtonBehaviour : MonoBehaviour
 {
     public GameObject door;
     public GameObject target;
+    public Sprite sprite;
 
     private Vector3 targetPos;
+    private SpriteRenderer renderer;
     // Start is called before the first frame update
     void Start()
     {
-        door = GameObject.Find("Door");
-        targetPos = target.transform.position;
+        //door = GameObject.Find("Door");
+        renderer = GetComponentInParent<SpriteRenderer>();
+        if(target != null)
+        {
+            targetPos = target.transform.position;
+        }
     }
-    public void OpenDoor()
+    public void MoveObject()
     {
         Debug.Log("Open Door");
         door.transform.position = Vector3.MoveTowards(door.transform.position, targetPos, 5);
+        ChangeSprite();
 
+    }
+
+    public void DestroyObject(GameObject gameObject)
+    {
+        Debug.Log("Platform destroyed");
+        Destroy(gameObject);
+        ChangeSprite();
+    }
+
+    private void ChangeSprite()
+    {
+        renderer.sprite = sprite;
     }
 }

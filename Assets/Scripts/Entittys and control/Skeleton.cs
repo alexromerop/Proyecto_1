@@ -28,7 +28,7 @@ public class Skeleton: MonoBehaviour
     }
     private void Shoot()
     {
-        Debug.Log("Shoot");
+        //Debug.Log("Shoot");
 
         Vector3 direction;
         if (GetComponent<Player_movment>().transform.localScale.x == 1.0f) direction = Vector3.right;
