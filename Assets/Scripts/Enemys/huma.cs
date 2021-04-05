@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class huma : MonoBehaviour
 {
+    public GameObject[] Alie;
     public GameObject Prota;
     public GameObject Bullet;
     public int Health = 1;
@@ -13,18 +14,21 @@ public class huma : MonoBehaviour
     private float LastShoot;
     private void Update()
     {
-        Vector3 direction = Prota.transform.position - transform.position;
-        if (direction.x >= 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-        else transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
 
-        float distance = Mathf.Abs(Prota.transform.position.x - transform.position.x);
-        if(distance <1.0f && Time.time > LastShoot + 1.0f)
+        for (int i = 0; i <= Alie.Length; i++)
         {
-            Shoot();
-            LastShoot = Time.time;
+            Vector3 direction = Alie[i].transform.position - transform.position;
+            if (direction.x >= 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+            else transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+
+            float distance = Mathf.Abs(Alie[i].transform.position.x - transform.position.x);
+            if (distance < 1.0f && Time.time > LastShoot + 1.0f)
+            {
+                Shoot();
+                LastShoot = Time.time;
+            }
         }
     }
-
     private void Shoot()
     {
         Debug.Log("Shoot");
