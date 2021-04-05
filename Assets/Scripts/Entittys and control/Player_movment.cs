@@ -70,7 +70,7 @@ public class Player_movment : MonoBehaviour
 
         //habilidades segun enemigos
 
-        animator.SetFloat("Speed", Mathf.Abs(Speed));
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
     }
     private void Jump()

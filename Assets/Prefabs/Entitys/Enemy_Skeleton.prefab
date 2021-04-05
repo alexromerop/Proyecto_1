@@ -140,7 +140,7 @@ MonoBehaviour:
   JumpForce: 150
   in_control: 0
   horizontal: 0
-  animator: {fileID: 0}
+  animator: {fileID: 1076940140}
   in_ground: 1
   Health: 1
 --- !u!114 &676288784845341770
