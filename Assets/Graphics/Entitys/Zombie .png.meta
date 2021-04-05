@@ -113,42 +113,12 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
-<<<<<<< Updated upstream
-=======
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
->>>>>>> Stashed changes
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -306,7 +276,7 @@ TextureImporter:
         x: 10
         y: 60
         width: 20
-        height: 33
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,9 +297,9 @@ TextureImporter:
         x: 41
         y: 60
         width: 23
-        height: 32
+        height: 25
       alignment: 9
-      pivot: {x: 0.48722276, y: 0.5459211}
+      pivot: {x: 0.5855312, y: 0.648634}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -350,7 +320,7 @@ TextureImporter:
         width: 25
         height: 22
       alignment: 9
-      pivot: {x: 0.5000003, y: 0.92748016}
+      pivot: {x: 0.6136618, y: 0.71857905}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,7 +335,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 102b2266cb7312e44a07dcfbc700a333
+    spriteID: d477f7cd05e3b9542860acf184eb0a6d
     internalID: 0
     vertices: []
     indices: 
