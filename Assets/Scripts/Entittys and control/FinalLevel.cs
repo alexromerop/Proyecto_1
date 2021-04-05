@@ -20,7 +20,6 @@ public class FinalLevel : MonoBehaviour
     {
         if (collision.tag.Equals("Controlable"))
         {
-            GameManagerSingleton.instance.CompleteLevel(numLevel);
             //Debug.Log("Collision");
             LevelComplete();
         }
@@ -29,6 +28,7 @@ public class FinalLevel : MonoBehaviour
     void LevelComplete()
     {
         completeLevel.SetActive(true);
+        GameManagerSingleton.instance.CompleteLevel(numLevel);
         Debug.Log(GameManagerSingleton.instance.levelAccess);
         Time.timeScale = 0f;
     }

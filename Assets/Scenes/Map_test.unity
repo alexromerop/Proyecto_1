@@ -912,6 +912,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.07471521
       objectReference: {fileID: 0}
+    - target: {fileID: 604074699380311050, guid: 1bf004b3d5941994db332378b8d36664,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: Alie.Array.size
@@ -948,6 +953,11 @@ PrefabInstance:
       propertyPath: Alie.Array.data[2]
       value: 
       objectReference: {fileID: 744850939}
+    - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
+        type: 3}
+      propertyPath: Human
+      value: 
+      objectReference: {fileID: 2126914121}
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3547,6 +3557,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &2126914121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8517944794023011353, guid: 1bf004b3d5941994db332378b8d36664,
+    type: 3}
+  m_PrefabInstance: {fileID: 837304773}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2139553568
 PrefabInstance:
   m_ObjectHideFlags: 0

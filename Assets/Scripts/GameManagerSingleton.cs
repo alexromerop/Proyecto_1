@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
 public class GameManagerSingleton : MonoBehaviour
 {
-    public static GameManagerSingleton instance { get; private set; }
+    public static GameManagerSingleton instance { get; set; }
 
     //Game Values
     public float musicVol;
     public float sfxVol;
-    public AudioMixer mixer;
+    public int scene;
 
     //Level Selector
     public int levelAccess;
@@ -26,16 +27,19 @@ public class GameManagerSingleton : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 
+    private void Update()
+    {
+        scene = SceneManager.GetActiveScene().buildIndex;
+    }
     public void CompleteLevel(int level)
     {
         if(levelAccess == level)
-            levelAccess = level++;
+        {
+            levelAccess = level + 1;
+        } 
     }
 
-    public void SetLevelVolume(float sliderValue)
-    {
-        mixer.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20);
-    }
 }

@@ -7,6 +7,7 @@ public class huma : MonoBehaviour
     public GameObject[] Alie;
     public GameObject Prota;
     public GameObject Bullet;
+    public GameObject Human;
     public int Health = 1;
     private Player_movment _hit;
 
@@ -15,11 +16,18 @@ public class huma : MonoBehaviour
     private void Update()
     {
 
-        for (int i = 0; i <= Alie.Length; i++)
+        for (int i = 0; i < Alie.Length; i++)
         {
             Vector3 direction = Alie[i].transform.position - transform.position;
-            if (direction.x >= 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-            else transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+            if (direction.x >= 0.0f)
+            {
+                transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+                Human.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else { 
+                transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+                Human.gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
 
             float distance = Mathf.Abs(Alie[i].transform.position.x - transform.position.x);
             if (distance < 1.0f && Time.time > LastShoot + 1.0f)

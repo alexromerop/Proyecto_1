@@ -23,16 +23,19 @@ public class Player_movment : MonoBehaviour
 
 
     public int Health = 1;
+    private int sceneIndex;
     
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
-}
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-    horizontal = Input.GetAxisRaw("Horizontal");
+        sceneIndex = GameManagerSingleton.instance.scene;
+        horizontal = Input.GetAxisRaw("Horizontal");
         
         //añadir voladores en controller.loquesea
      
@@ -98,7 +101,13 @@ public class Player_movment : MonoBehaviour
             }
         }
         if (collision.gameObject.tag.Equals("Infinite"))
-            Debug.Log("Respawn on Checkpoint, Reload Scene");
+        {
+            if (gameObject.tag.Equals("Controlable"))
+            {
+                Debug.Log("Respawn on Checkpoint, Reload Scene");
+                Hit_fisico();
+            }
+        } 
 }
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -111,7 +120,8 @@ public class Player_movment : MonoBehaviour
         if (Health == 0) Debug.Log("Dead");
 
         //poner un  as muerto y un boton para reinicar el nivel, en otro void y en el update un if heal<=0
-        SceneManager.LoadScene("Map_test");
+        //SceneManager.LoadScene("Map_test");
+        SceneManager.LoadScene(sceneIndex);
     }
     public void Hit_fisico()
     {

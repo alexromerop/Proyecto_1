@@ -17,20 +17,22 @@ public class LevelSelectionBehaviour : MonoBehaviour
 
     private void Update()
     {
-        if(GameManagerSingleton.instance.levelAccess >= 0){
+        if (GameManagerSingleton.instance.levelAccess >= 0)
+        {
             buttonTutorial.interactable = true;
-            if(GameManagerSingleton.instance.levelAccess >= 1)
-            {
-                buttonLevel1.interactable = true;
-                if(GameManagerSingleton.instance.levelAccess >= 2)
-                {
-                    buttonLevel2.interactable = true;
-                    if(GameManagerSingleton.instance.levelAccess >= 3)
-                    {
-                        buttonLevel3.interactable = true;
-                    }
-                }
-            }
+        }
+        if (GameManagerSingleton.instance.levelAccess >= 1)
+        {
+            buttonLevel1.interactable = true;
+        }
+        if (GameManagerSingleton.instance.levelAccess >= 2)
+        {
+            buttonLevel2.interactable = true;
+        }
+        if (GameManagerSingleton.instance.levelAccess >= 3)
+        {
+            buttonLevel3.interactable = true;
         }
     }
 }
+
