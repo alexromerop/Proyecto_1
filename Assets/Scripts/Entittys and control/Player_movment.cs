@@ -16,7 +16,8 @@ public class Player_movment : MonoBehaviour
 
     Rigidbody2D Rigidbody2D;
     public float horizontal;
-    
+
+    public Animator animator;
 
         
     public bool in_ground;
@@ -65,9 +66,12 @@ public class Player_movment : MonoBehaviour
         {
             Hit();
         }
-       
 
-    //habilidades segun enemigos
+
+        //habilidades segun enemigos
+
+        animator.SetFloat("Speed", Mathf.Abs(Speed));
+
     }
     private void Jump()
     {
