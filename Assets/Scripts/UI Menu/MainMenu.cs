@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
     public GameObject menu;
-    // Start is called before the first frame update
+
     public void ChangeScene(string scene)
     {
         SceneManager.LoadScene(scene, LoadSceneMode.Single);

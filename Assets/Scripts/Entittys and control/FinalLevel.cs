@@ -16,11 +16,12 @@ public class FinalLevel : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player"))
+        if (collision.tag.Equals("Controlable"))
         {
             GameManagerSingleton.instance.CompleteLevel(numLevel);
+            //Debug.Log("Collision");
             LevelComplete();
         }
     }
@@ -28,5 +29,7 @@ public class FinalLevel : MonoBehaviour
     void LevelComplete()
     {
         completeLevel.SetActive(true);
+        Debug.Log(GameManagerSingleton.instance.levelAccess);
+        Time.timeScale = 0f;
     }
 }

@@ -28,7 +28,7 @@ public class GameManagerSingleton : MonoBehaviour
 
     public void CompleteLevel(int level)
     {
-        if(levelAccess < level)
-            levelAccess = level;
+        if(levelAccess == level)
+            levelAccess = level++;
     }
 }

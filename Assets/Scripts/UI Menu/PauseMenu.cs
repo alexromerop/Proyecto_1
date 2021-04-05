@@ -42,12 +42,16 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         string mainMenu = "MainMenu";
+        Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenu);
+        gameIsPaused = false;
     }
 
     public void GoToNextLevel()
     {
         SceneManager.LoadScene("Level1_Desert");
+        Time.timeScale = 1f;
+        gameIsPaused = false;
     }
 
     public void LevelFinished()
