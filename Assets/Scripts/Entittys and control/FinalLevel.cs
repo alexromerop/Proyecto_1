@@ -8,8 +8,13 @@ public class FinalLevel : MonoBehaviour
     public int numLevel;
 
     public GameObject completeLevel;
+    public Sprite sprite;
+    public GameObject goal;
 
-
+    private void Start()
+    {
+        
+    }
     // Update is called once per frame
     void Update()
     {
@@ -21,6 +26,7 @@ public class FinalLevel : MonoBehaviour
         if (collision.tag.Equals("Controlable"))
         {
             //Debug.Log("Collision");
+            goal.GetComponent<SpriteRenderer>().sprite = sprite;
             LevelComplete();
         }
     }

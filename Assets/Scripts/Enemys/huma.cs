@@ -7,7 +7,6 @@ public class huma : MonoBehaviour
     public GameObject[] Alie;
     public GameObject Prota;
     public GameObject Bullet;
-    public GameObject Human;
     public int Health = 1;
     private Player_movment _hit;
 
@@ -22,11 +21,11 @@ public class huma : MonoBehaviour
             if (direction.x >= 0.0f)
             {
                 transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-                Human.GetComponent<SpriteRenderer>().flipX = false;
+               // Human.GetComponent<SpriteRenderer>().flipX = false;
             }
             else { 
                 transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-                Human.gameObject.GetComponent<SpriteRenderer>().flipX = true;
+               
             }
 
             float distance = Mathf.Abs(Alie[i].transform.position.x - transform.position.x);
@@ -54,7 +53,7 @@ public class huma : MonoBehaviour
         
         if (collision.gameObject.tag.Equals("Bullet"))
         {
-            if (gameObject.tag.Equals("Enemy"))
+            if (gameObject.tag.Equals("Controlable"))
                 Health -= 1;
             if (Health == 0) {
                 
