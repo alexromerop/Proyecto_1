@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class GameManagerSingleton : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class GameManagerSingleton : MonoBehaviour
     //Game Values
     public float musicVol;
     public float sfxVol;
+    public AudioMixer mixer;
 
     //Level Selector
     public int levelAccess;
@@ -30,5 +32,10 @@ public class GameManagerSingleton : MonoBehaviour
     {
         if(levelAccess == level)
             levelAccess = level++;
+    }
+
+    public void SetLevelVolume(float sliderValue)
+    {
+        mixer.SetFloat("MusicVol", Mathf.Log10(sliderValue) * 20);
     }
 }
