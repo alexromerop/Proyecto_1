@@ -1,0 +1,1496 @@
+fileFormatVersion: 2
+guid: ed7d8ac422474f546b5e50fe8a1937bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7086371298408083068
+    second: super_pixel_plains_style_B_0
+  - first:
+      213: 2832955211311649716
+    second: super_pixel_plains_style_B_1
+  - first:
+      213: 5197676540740352185
+    second: super_pixel_plains_style_B_2
+  - first:
+      213: -5788361493270542335
+    second: super_pixel_plains_style_B_3
+  - first:
+      213: -2708889050163046791
+    second: super_pixel_plains_style_B_4
+  - first:
+      213: -4682431205163989030
+    second: super_pixel_plains_style_B_5
+  - first:
+      213: -5691804264206668798
+    second: super_pixel_plains_style_B_6
+  - first:
+      213: 920499721744479376
+    second: super_pixel_plains_style_B_7
+  - first:
+      213: 2554905463508245006
+    second: super_pixel_plains_style_B_8
+  - first:
+      213: 2089634127185926160
+    second: super_pixel_plains_style_B_9
+  - first:
+      213: -8215605802946006562
+    second: super_pixel_plains_style_B_10
+  - first:
+      213: 7540737085170737671
+    second: super_pixel_plains_style_B_11
+  - first:
+      213: 4804300457813765142
+    second: super_pixel_plains_style_B_12
+  - first:
+      213: 3143870151097862540
+    second: super_pixel_plains_style_B_13
+  - first:
+      213: 5312447525303271563
+    second: super_pixel_plains_style_B_14
+  - first:
+      213: -5777642921995213085
+    second: super_pixel_plains_style_B_15
+  - first:
+      213: 4042191300813274253
+    second: super_pixel_plains_style_B_16
+  - first:
+      213: -4134752226245477358
+    second: super_pixel_plains_style_B_17
+  - first:
+      213: 8673681392983848183
+    second: super_pixel_plains_style_B_18
+  - first:
+      213: 1589259129627861079
+    second: super_pixel_plains_style_B_19
+  - first:
+      213: -6027683171840981484
+    second: super_pixel_plains_style_B_20
+  - first:
+      213: -1425044923747726803
+    second: super_pixel_plains_style_B_21
+  - first:
+      213: 5677233477736875154
+    second: super_pixel_plains_style_B_22
+  - first:
+      213: 5107485097288358381
+    second: super_pixel_plains_style_B_23
+  - first:
+      213: 6548921476207544979
+    second: super_pixel_plains_style_B_24
+  - first:
+      213: 2040584437443318851
+    second: super_pixel_plains_style_B_25
+  - first:
+      213: 1829126120925291455
+    second: super_pixel_plains_style_B_26
+  - first:
+      213: 5926635237738162324
+    second: super_pixel_plains_style_B_27
+  - first:
+      213: 7029139002983313040
+    second: super_pixel_plains_style_B_28
+  - first:
+      213: 4764671880649041295
+    second: super_pixel_plains_style_B_29
+  - first:
+      213: -7177024644482044835
+    second: super_pixel_plains_style_B_30
+  - first:
+      213: 8146287870366786505
+    second: super_pixel_plains_style_B_31
+  - first:
+      213: -2765282442326301485
+    second: super_pixel_plains_style_B_32
+  - first:
+      213: 69275509548272638
+    second: super_pixel_plains_style_B_33
+  - first:
+      213: -1237493738202613208
+    second: super_pixel_plains_style_B_34
+  - first:
+      213: 2436869438977057581
+    second: super_pixel_plains_style_B_35
+  - first:
+      213: -4822427105160766254
+    second: super_pixel_plains_style_B_36
+  - first:
+      213: 3072516807625611965
+    second: super_pixel_plains_style_B_37
+  - first:
+      213: 8831659018272562544
+    second: super_pixel_plains_style_B_38
+  - first:
+      213: 5817636230217113269
+    second: super_pixel_plains_style_B_39
+  - first:
+      213: -449015084718381119
+    second: super_pixel_plains_style_B_40
+  - first:
+      213: -4247708551706051752
+    second: super_pixel_plains_style_B_41
+  - first:
+      213: -4180360335701500534
+    second: super_pixel_plains_style_B_42
+  - first:
+      213: 607237339646115797
+    second: super_pixel_plains_style_B_43
+  - first:
+      213: -6115871154620667935
+    second: super_pixel_plains_style_B_44
+  - first:
+      213: 8234498262842233076
+    second: super_pixel_plains_style_B_45
+  - first:
+      213: 6141936429267236737
+    second: super_pixel_plains_style_B_46
+  - first:
+      213: -1692599518914129429
+    second: super_pixel_plains_style_B_47
+  - first:
+      213: 6854790617600442903
+    second: super_pixel_plains_style_B_48
+  - first:
+      213: 3408589046668250538
+    second: super_pixel_plains_style_B_49
+  - first:
+      213: 2792209858919171050
+    second: super_pixel_plains_style_B_50
+  - first:
+      213: 2033686907787458247
+    second: super_pixel_plains_style_B_51
+  - first:
+      213: 706636688253792720
+    second: super_pixel_plains_style_B_52
+  - first:
+      213: 2895017533935418413
+    second: super_pixel_plains_style_B_53
+  - first:
+      213: -3007886237206295305
+    second: super_pixel_plains_style_B_54
+  - first:
+      213: -779362259169791472
+    second: super_pixel_plains_style_B_55
+  - first:
+      213: 3295492667973079651
+    second: super_pixel_plains_style_B_56
+  - first:
+      213: -2380432021355407233
+    second: super_pixel_plains_style_B_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 235
+        width: 321
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e23249629d75260800000000000000
+      internalID: 7086371298408083068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 235
+        width: 320
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b392da41cda05720800000000000000
+      internalID: 2832955211311649716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 321
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8b53c764bd12840800000000000000
+      internalID: 5197676540740352185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1084f02d3eb9bafa0800000000000000
+      internalID: -5788361493270542335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 21
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976161dd2c7186ad0800000000000000
+      internalID: -2708889050163046791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 28
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad70ff2a0a9a40fb0800000000000000
+      internalID: -4682431205163989030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 31
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c68ec9d26a201b0800000000000000
+      internalID: -5691804264206668798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 31
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094fc62be9546cc00800000000000000
+      internalID: 920499721744479376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_8
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 31
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a1d1b8bf8d47320800000000000000
+      internalID: 2554905463508245006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_9
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 15
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0185375da2fdffc10800000000000000
+      internalID: 2089634127185926160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 15
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1f3c4ec0e4cfd80800000000000000
+      internalID: -8215605802946006562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702673a2d6416a860800000000000000
+      internalID: 7540737085170737671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c6c36efcd4ca240800000000000000
+      internalID: 4804300457813765142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c894428de3541ab20800000000000000
+      internalID: 3143870151097862540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80ca91b0ea99b940800000000000000
+      internalID: 5312447525303271563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_15
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6ec6baf50b1dfa0800000000000000
+      internalID: -5777642921995213085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_16
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c3627529fb81830800000000000000
+      internalID: 4042191300813274253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cf160d1c86e96c0800000000000000
+      internalID: -4134752226245477358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_18
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4b7b3954b1f5870800000000000000
+      internalID: 8673681392983848183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750e38512ce2e0610800000000000000
+      internalID: 1589259129627861079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_20
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41681db571e595ca0800000000000000
+      internalID: -6027683171840981484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_21
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a0b0b2139393ce0800000000000000
+      internalID: -1425044923747726803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294467bc4c599ce40800000000000000
+      internalID: 5677233477736875154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_23
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de95977a2ae61e640800000000000000
+      internalID: 5107485097288358381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_24
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a074b826172ea50800000000000000
+      internalID: 6548921476207544979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_25
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344dffffbbc915c10800000000000000
+      internalID: 2040584437443318851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_26
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3e32f048c526910800000000000000
+      internalID: 1829126120925291455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_27
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49822ba1953af3250800000000000000
+      internalID: 5926635237738162324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_28
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ee9a56ea48c8160800000000000000
+      internalID: 7029139002983313040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_29
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85e065c4d38f1240800000000000000
+      internalID: 4764671880649041295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c6c618c16166c90800000000000000
+      internalID: -7177024644482044835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_31
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3294f38ad6d0170800000000000000
+      internalID: 8146287870366786505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d42481154ebf99d0800000000000000
+      internalID: -2765282442326301485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_33
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 10
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb424a75bd16f000800000000000000
+      internalID: 69275509548272638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_34
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 10
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ab9aa600a83dee0800000000000000
+      internalID: -1237493738202613208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_35
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 10
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23ab3af7df71d120800000000000000
+      internalID: 2436869438977057581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_36
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 10
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc5da1291c431db0800000000000000
+      internalID: -4822427105160766254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_37
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba11f4f1c5c3aa20800000000000000
+      internalID: 3072516807625611965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_38
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dd281c51b509a70800000000000000
+      internalID: 8831659018272562544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_39
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be988604556cb050800000000000000
+      internalID: 5817636230217113269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_40
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7a190d827c4c9f0800000000000000
+      internalID: -449015084718381119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_41
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bfb2ad39b1d05c0800000000000000
+      internalID: -4247708551706051752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_42
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d11655c606cf5c0800000000000000
+      internalID: -4180360335701500534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_43
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfb5f3a4275d6800800000000000000
+      internalID: 607237339646115797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_44
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7e6c0969f002ba0800000000000000
+      internalID: -6115871154620667935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_45
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f05844ba80d64270800000000000000
+      internalID: 8234498262842233076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_46
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187318b14aa8c3550800000000000000
+      internalID: 6141936429267236737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_47
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1502094bda288e0800000000000000
+      internalID: -1692599518914129429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_48
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71241cb9fbb112f50800000000000000
+      internalID: 6854790617600442903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_49
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadc2ffadadbd4f20800000000000000
+      internalID: 3408589046668250538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_50
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3883ba21cefb620800000000000000
+      internalID: 2792209858919171050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_51
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6b80bb77b193c10800000000000000
+      internalID: 2033686907787458247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_52
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d130a4f25a7ec900800000000000000
+      internalID: 706636688253792720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_53
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c7fb0db1b2d2820800000000000000
+      internalID: 2895017533935418413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_54
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc488a5767d146d0800000000000000
+      internalID: -3007886237206295305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_55
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012b6de87262f25f0800000000000000
+      internalID: -779362259169791472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_56
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362907a0f11fbbd20800000000000000
+      internalID: 3295492667973079651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_pixel_plains_style_B_57
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 50
+        width: 320
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78552b40b107fed0800000000000000
+      internalID: -2380432021355407233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 858e8b7c6ca31164b949c43156bd869d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
