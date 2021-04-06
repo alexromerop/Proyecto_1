@@ -7,12 +7,13 @@ public class Skeleton: MonoBehaviour
     public GameObject Prota;
     public GameObject Bullet;
 
+    //public Animation animation;
     public int Health = 1;
 
     private float LastShoot;
     public void Start()
     {
-        
+        //GetComponentInParent<Player_movment>().animator.GetCurrentAnimatorClipInfo(0).
     }
     public void Update()
     {
@@ -42,17 +43,21 @@ public class Skeleton: MonoBehaviour
 
         if (collision.gameObject.tag.Equals("Bullet") || collision.gameObject.tag.Equals("Enemy"))
         {
-            if (gameObject.tag.Equals("Enemy"))
+            if (gameObject.tag.Equals("Controlable"))
                 Health -= 1;
             if (Health == 0)
             {
-
-                Debug.Log("Dead Enemy");
-                Destroy(gameObject);
+                //StartCoroutine(DeadAnimation());
+                
             }
 
 
-
+            //IEnumerator DeadAnimation()
+            //{
+            //    yield return new WaitUntil(() => animation.isPlaying == false);
+            //    Debug.Log("Dead Enemy");
+            //    Destroy(gameObject);
+            //}
 
         }
     }

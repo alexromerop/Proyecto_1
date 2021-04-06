@@ -67,10 +67,15 @@ public class Player_movment : MonoBehaviour
             Hit();
         }
 
+        if(Health <= 0)
+        {
+            
+        }
 
         //habilidades segun enemigos
-
+        animator.SetFloat("Health", Health);
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        animator.SetBool("Grounded", in_ground);
 
     }
     private void Jump()
@@ -121,7 +126,7 @@ public class Player_movment : MonoBehaviour
     public void Hit()
     {
         Health-= 1;
-        if (Health == 0) Debug.Log("Dead");
+
 
         //poner un  as muerto y un boton para reinicar el nivel, en otro void y en el update un if heal<=0
         //SceneManager.LoadScene("Map_test");
