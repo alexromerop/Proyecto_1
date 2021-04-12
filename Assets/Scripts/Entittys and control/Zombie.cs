@@ -81,7 +81,7 @@ public class Zombie : MonoBehaviour
 
             if (other.gameObject.tag.Equals("Bullet"))
         {
-            if (gameObject.tag.Equals("Enemy"))
+            if (gameObject.tag.Equals("Controlable"))
                 Health -= 1;
             if (Health == 0)
             {

@@ -66,7 +66,7 @@ public class Rat : MonoBehaviour
 
         if (collision.gameObject.tag.Equals("Bullet") || collision.gameObject.tag.Equals("Enemy"))
         {
-            if (gameObject.tag.Equals("Enemy"))
+            if (gameObject.tag.Equals("Controlable"))
                 Health -= 1;
             if (Health == 0)
             {
