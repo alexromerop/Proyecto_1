@@ -9,7 +9,9 @@ public class huma : MonoBehaviour
     public GameObject Bullet;
     public int Health = 1;
     private Player_movment _hit;
-
+    public Animator animator;
+    private float speed;
+    public bool shoting;
 
     private float LastShoot;
     private void Update()
@@ -31,9 +33,15 @@ public class huma : MonoBehaviour
             float distance = Mathf.Abs(Alie[i].transform.position.x - transform.position.x);
             if (distance < 1.0f && Time.time > LastShoot + 1.0f)
             {
+                shoting = false;
                 Shoot();
                 LastShoot = Time.time;
+                shoting = true;
             }
+            animator.SetBool("Shoting", shoting);
+            animator.SetFloat("Speed", Mathf.Abs(speed));
+            
+
         }
     }
     private void Shoot()

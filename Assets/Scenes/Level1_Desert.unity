@@ -1673,6 +1673,11 @@ PrefabInstance:
       propertyPath: Alie.Array.data[3]
       value: 
       objectReference: {fileID: 2082780202}
+    - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1829262989}
     - target: {fileID: 8517944794023011331, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20738,6 +20743,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8653912903210749931, guid: 41e8ed88a26a27a418d3ca9cfd3121a6,
     type: 3}
   m_PrefabInstance: {fileID: 1797509360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1829262989 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1576361294753819537, guid: 1bf004b3d5941994db332378b8d36664,
+    type: 3}
+  m_PrefabInstance: {fileID: 827617652}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1877971065
 GameObject:
