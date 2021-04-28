@@ -6,14 +6,14 @@ public class Skeleton: MonoBehaviour
 {
     public GameObject Prota;
     public GameObject Bullet;
+    public AudioManager audioManager;
 
-    //public Animation animation;
     public int Health = 1;
 
     private float LastShoot;
     public void Start()
     {
-        //GetComponentInParent<Player_movment>().animator.GetCurrentAnimatorClipInfo(0).
+        
     }
     public void Update()
     {
@@ -47,17 +47,17 @@ public class Skeleton: MonoBehaviour
                 Health -= 1;
             if (Health == 0)
             {
-                //StartCoroutine(DeadAnimation());
-                
+                StartCoroutine(DeadAnimation());
+                audioManager.PlayDeath();
             }
 
 
-            //IEnumerator DeadAnimation()
-            //{
-            //    yield return new WaitUntil(() => animation.isPlaying == false);
-            //    Debug.Log("Dead Enemy");
-            //    Destroy(gameObject);
-            //}
+            IEnumerator DeadAnimation()
+            {
+                yield return new WaitUntil(() => GetComponent<Animation>().isPlaying == false);
+                Debug.Log("Dead Enemy");
+                Destroy(gameObject);
+            }
 
         }
     }
