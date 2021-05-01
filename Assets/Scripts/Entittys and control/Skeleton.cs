@@ -11,9 +11,10 @@ public class Skeleton: MonoBehaviour
     public int Health = 1;
 
     private float LastShoot;
+    private Animator animator;
     public void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
     public void Update()
     {
@@ -25,6 +26,10 @@ public class Skeleton: MonoBehaviour
                 Shoot();
                 LastShoot = Time.time;
             }
+        }
+        if (Health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
     private void Shoot()
@@ -45,21 +50,13 @@ public class Skeleton: MonoBehaviour
         {
             if (gameObject.tag.Equals("Controlable"))
                 Health -= 1;
-            if (Health == 0)
-            {
-                StartCoroutine(DeadAnimation());
-                audioManager.PlayDeath();
-            }
-
-
-            IEnumerator DeadAnimation()
-            {
-                yield return new WaitUntil(() => GetComponent<Animation>().isPlaying == false);
-                Debug.Log("Dead Enemy");
-                Destroy(gameObject);
-            }
-
         }
+    }
+    IEnumerator DeadAnimation()
+    {
+        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1);
+        Debug.Log("Dead Enemy");
+        //Destroy(gameObject);
     }
 }
 
