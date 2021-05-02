@@ -14,16 +14,18 @@ public class Respawn_Entitys : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine("Esperar");
+        if (Entity.GetComponent<Player_movment>().Health <= 0)
+        {
+            StartCoroutine("Esperar");
+        }
     }
 
     IEnumerator Esperar()
     {
         yield return new WaitForSeconds(2);
-        if (Entity.GetComponent<Player_movment>().Health <= 0)
-        {
+       
             Entity.transform.position = transform.position;
             Entity.GetComponent<Player_movment>().Health++;
-        }
+        
     }
 }

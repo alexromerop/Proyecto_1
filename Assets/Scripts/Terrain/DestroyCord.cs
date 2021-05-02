@@ -15,7 +15,7 @@ public class DestroyCord : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -25,10 +25,12 @@ public class DestroyCord : MonoBehaviour
         if (collision.gameObject.tag.Equals("Bullet"))
         {
             Candel.GetComponent<Rigidbody2D>().bodyType-=2;
+                Candel.GetComponent<BoxCollider2D>().enabled=true;
 
+            
             Destroy(collision.gameObject);
                 Destroy(gameObject);
-
+           
 
 
         }
