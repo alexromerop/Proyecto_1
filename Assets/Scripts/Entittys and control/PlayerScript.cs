@@ -8,6 +8,8 @@ public class PlayerScript : MonoBehaviour
     private float speedY;
     public float speed;
     public GameObject player;
+    public GameObject Info_to_show;
+
     public enum Possesions
     {
         Rat,

@@ -23,7 +23,7 @@ public class Box_script : MonoBehaviour
         {
             Debug.Log("Aaa");
 
-            box.GetComponent<Rigidbody2D>().bodyType += 2;
+            //box.GetComponent<Rigidbody2D>().bodyType += 2;
         }
         else
         {

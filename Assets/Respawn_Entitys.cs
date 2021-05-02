@@ -17,15 +17,18 @@ public class Respawn_Entitys : MonoBehaviour
         if (Entity.GetComponent<Player_movment>().Health <= 0)
         {
             StartCoroutine("Esperar");
+            Entity.GetComponent<Player_movment>().Health++;
+
         }
     }
 
     IEnumerator Esperar()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
        
             Entity.transform.position = transform.position;
-            Entity.GetComponent<Player_movment>().Health++;
+        
+            
         
     }
 }

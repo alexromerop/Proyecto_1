@@ -25,7 +25,12 @@ public class Player_movment : MonoBehaviour
 
     public int Health = 1;
     private int sceneIndex;
-    
+
+    public GameObject Info_to_show;
+   
+    private float LastShoot;
+
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -153,5 +158,31 @@ public class Player_movment : MonoBehaviour
         Debug.Log("Dead Enemy");
         //Destroy(gameObject);
     }
+    
+    private void OnMouseOver()
+    {
+        //if (gameObject.tag.Equals("Player"))
+        {
+            if (Time.time > LastShoot + 2f)
+            {
+                GameObject boton = Instantiate(Info_to_show);
+                boton.gameObject.transform.parent = this.gameObject.transform;
+                boton.gameObject.transform.position = new Vector3(this.gameObject.transform.position.x,
+                    this.gameObject.transform.position.y+0.35f, this.gameObject.transform.position.z);
+
+
+                LastShoot = Time.time;
+            }
+        }
+        
+       
+
+
+
+
+
+    }
+
+
 }
 
