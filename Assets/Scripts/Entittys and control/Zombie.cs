@@ -59,16 +59,38 @@ public class Zombie : MonoBehaviour
         Debug.Log("trigger");
         if (other.gameObject.tag.Equals("Cogible"))
         {
-            
-            if (Input.GetKeyDown(KeyCode.E) && !taken && timetotake==0)
+
+            if (Input.GetKeyDown(KeyCode.E) && !taken && timetotake == 0)
             {
                 //other.gameObject.GetComponent<BoxCollider2D>().enabled= false;
                 TakeBox(other.gameObject);
                 Debug.Log("Take");
                 taken = true;
-                other.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+                //flip rotations
+                float z_= 0;
+                if (other.gameObject.transform.rotation.z <= 80)
+                {
+                    z_ += 90;
+                }
+                else
+                    z_ = 0;
+                other.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, z_));
                 timetotake = 500;
             }
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag.Equals("Cogible"))
+        {
+            other.gameObject.GetComponent<Rigidbody2D>().bodyType -= 2;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag.Equals("Cogible"))
+        {
+            other.gameObject.GetComponent<Rigidbody2D>().bodyType += 2;
         }
     }
     private void OnCollisionEnter2D(Collision2D other)

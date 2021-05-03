@@ -33,8 +33,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanMove:
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   Prota: {fileID: 0}
   Box: {fileID: 0}
   zombie: {fileID: 6555396750543998649}
@@ -123,17 +121,17 @@ PrefabInstance:
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.2127
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6702
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.868912
+      value: 12.74
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}

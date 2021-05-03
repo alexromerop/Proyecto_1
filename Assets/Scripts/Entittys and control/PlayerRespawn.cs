@@ -23,5 +23,7 @@ public class PlayerRespawn : MonoBehaviour
         PlayerPrefs.SetFloat("checkPointPositionX",x);
         PlayerPrefs.SetFloat("checkPointPositionY",y);
     }
+
+    
     
 }

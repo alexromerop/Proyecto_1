@@ -8,6 +8,8 @@ public class PlayerScript : MonoBehaviour
     private float speedY;
     public float speed;
     public GameObject player;
+    public GameObject Info_to_show;
+
     public enum Possesions
     {
         Rat,
@@ -18,10 +20,10 @@ public class PlayerScript : MonoBehaviour
     {
         if (Input.GetKeyDown("g")|| control.CurrentControl.GetComponent<Player_movment>().Health<=0)
         {
-            if(control.CurrentControl.GetComponent<Player_movment>().Health <= 0)
+            /*if(control.CurrentControl.GetComponent<Player_movment>().Health <= 0)
             {
                 Destroy(control.CurrentControl);
-            }
+            }*/
             control.UnPosses();
             control.CanControl[0].GetComponent<Player_movment>().enabled = true;
             //player.transform.position = control.transform.position;
