@@ -9,27 +9,35 @@ public class Box_script : MonoBehaviour
     Rigidbody2D Rigidbody2D;
     public GameObject box;
     public GameObject puede_mover;
+    public int contador;
+    
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(contador);
+       if (contador == 1)
+        {
+            Debug.Log("waiting");
+               StartCoroutine(Wait_box());
+                
 
+            
+
+            
+
+        }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    IEnumerator Wait_box()
     {
-        Debug.Log("A");
 
-        if (collision.gameObject.tag.Equals("terrain"))
-        {
-            Debug.Log("Aaa");
+        yield return new WaitForSeconds(1);
+        if(contador == 0)
+        box.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
 
-            //box.GetComponent<Rigidbody2D>().bodyType += 2;
-        }
-        else
-        {
-            //box.GetComponent<Rigidbody2D>().bodyType += 2;
-        }
+            contador = 0;
 
+        Debug.Log("stop");
     }
- 
-        }
+}

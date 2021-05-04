@@ -24,9 +24,10 @@ public class DestroyCord : MonoBehaviour
 
         if (collision.gameObject.tag.Equals("Bullet"))
         {
+            Candel.GetComponent<Box_script>().contador += 1;
             Candel.GetComponent<Rigidbody2D>().bodyType-=2;
                 Candel.GetComponent<BoxCollider2D>().enabled=true;
-
+            
             
             Destroy(collision.gameObject);
                 Destroy(gameObject);
