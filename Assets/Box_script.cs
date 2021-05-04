@@ -32,9 +32,11 @@ public class Box_script : MonoBehaviour
     IEnumerator Wait_box()
     {
 
-        yield return new WaitForSeconds(1);
-        if(contador == 0)
-        box.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        yield return new WaitForSeconds(0.35f);
+        if (contador == 0)
+        {
+            box.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        }
 
             contador = 0;
 

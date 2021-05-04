@@ -10,6 +10,7 @@ public class FinalLevel : MonoBehaviour
     public GameObject completeLevel;
     public Sprite sprite;
     public GameObject goal;
+    public GameObject Salir_con_este;
 
     private void Start()
     {
@@ -23,7 +24,7 @@ public class FinalLevel : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag.Equals("Controlable"))
+        if (collision.gameObject== Salir_con_este.gameObject)
         {
             //Debug.Log("Collision");
             goal.GetComponent<SpriteRenderer>().sprite = sprite;
