@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6454263921390343419}
   - component: {fileID: 5034733856756561582}
   - component: {fileID: 1576361294753819537}
+  - component: {fileID: 782468945}
   m_Layer: 0
   m_Name: Huma
   m_TagString: Enemy
@@ -28,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8517944794023011353}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.998, y: -0.329, z: 3.434494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -141,6 +142,7 @@ MonoBehaviour:
   Health: 1
   animator: {fileID: 1576361294753819537}
   shoting: 0
+  audioManager: {fileID: 0}
 --- !u!95 &1576361294753819537
 Animator:
   serializedVersion: 3
@@ -160,3 +162,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &782468945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517944794023011353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f247b614eef624a848a47984b9a79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Info_to_show: {fileID: 4787585731020886688, guid: cd5b5275d20b6c242a86f70d570c798d,
+    type: 3}
