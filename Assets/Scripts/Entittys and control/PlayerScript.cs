@@ -22,10 +22,10 @@ public class PlayerScript : MonoBehaviour
         {
             /*if(control.CurrentControl.GetComponent<Player_movment>().Health <= 0)
             {
+                //Destroy(control.CurrentControl);
                 Destroy(control.CurrentControl);
             }*/
-            control.UnPosses();
-            control.CanControl[0].GetComponent<Player_movment>().enabled = true;
+            StartCoroutine(UnPosses());
             //player.transform.position = control.transform.position;
         }
     }
@@ -34,5 +34,11 @@ public class PlayerScript : MonoBehaviour
         control.Posses(gameObject);
         GetComponent<Player_movment>().enabled = true;
         player.SetActive(false);
+    }
+    IEnumerator UnPosses()
+    {
+        yield return new WaitForSeconds(0.9f);
+        control.UnPosses();
+        control.CanControl[0].GetComponent<Player_movment>().enabled = true;
     }
 }
