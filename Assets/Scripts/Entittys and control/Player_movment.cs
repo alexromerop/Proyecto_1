@@ -26,7 +26,7 @@ public class Player_movment : MonoBehaviour
     public int Health = 1;
     private int sceneIndex;
 
-   
+    bool enableInput = true;
 
 
     void Start()
