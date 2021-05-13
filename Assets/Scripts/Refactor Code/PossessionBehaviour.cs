@@ -56,7 +56,6 @@ public class PossessionBehaviour : MonoBehaviour
         {
             Posses();
         }
-        
     }
 
     private void OnMouseOver()
