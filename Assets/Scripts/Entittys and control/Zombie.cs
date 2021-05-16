@@ -41,7 +41,7 @@ public class Zombie : MonoBehaviour
             if (boxTaken != null)
             {
                 if (Input.GetKeyDown(KeyCode.E)&& timetotake==0)
-                   {
+                {
                 
                     LeaveBox(boxTaken);
                     timetotake = 500;
@@ -101,15 +101,15 @@ public class Zombie : MonoBehaviour
 
         }*/
 
-            if (other.gameObject.tag.Equals("Bullet"))
+        if (other.gameObject.tag.Equals("Bullet"))
         {
             if (gameObject.tag.Equals("Controlable"))
                 Health -= 1;
-            if (Health == 0)
-            {
-                Debug.Log("Dead");
-                Destroy(gameObject);
-            }
+            //if (Health == 0)
+            //{
+            //    Debug.Log("Dead");
+            //    Destroy(gameObject);
+            //}
         }
     }
     private void TakeBox(GameObject box)

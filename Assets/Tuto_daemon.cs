@@ -8,6 +8,8 @@ public class Tuto_daemon : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject panel;
+    public GameObject Next_Daemon;
+
     /*
 
     public string[] Dialogo_Inicial;
@@ -47,26 +49,36 @@ public class Tuto_daemon : MonoBehaviour
     {
         if (Input.GetKeyDown("e"))
         {
-            
-                panel.SetActive(false);
-                this.gameObject.SetActive(false);
-            
+
+            daemons_active();
+
+
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag.Equals("Player") || collision.tag.Equals("Control")) {
-            panel.SetActive(true);
-            this.gameObject.SetActive(true);
+           // panel.SetActive(true);
+            //this.gameObject.SetActive(true);
         }
     }
 
+   
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag.Equals("Player") || collision.tag.Equals("Control"))
         {
-            panel.SetActive(false);
-            this.gameObject.SetActive(false);
+
+            daemons_active();
         }
+    }
+
+    private void daemons_active()
+    {
+        //efecto desaparecere
+        panel.SetActive(false);
+        this.gameObject.SetActive(false);
+        //efecto aparecer
+        Next_Daemon.SetActive(true);
     }
 }

@@ -26,50 +26,54 @@ public class Player_movment : MonoBehaviour
     public int Health = 1;
     private int sceneIndex;
 
-   
+    bool enableInput = true;
 
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         sceneIndex = GameManagerSingleton.instance.scene;
+        enableInput = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        horizontal = Input.GetAxisRaw("Horizontal");
-        
-        //añadir voladores en controller.loquesea
-     
-        
-
-        //flip body
-        if (horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-        else if (horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-        
-        
-
-
-       if (Physics2D.Raycast(transform.position, Vector3.down, 0.2f))
+        if (enableInput)
         {
-            in_ground = true;
+            horizontal = Input.GetAxisRaw("Horizontal");
+
+            //añadir voladores en controller.loquesea
+
+
+
+            //flip body
+            if (horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+            else if (horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+
+
+
+
+            if (Physics2D.Raycast(transform.position, Vector3.down, 0.2f))
+            {
+                in_ground = true;
+            }
+            else in_ground = false;
+
+
+
+            if (Input.GetKeyDown("space") && in_ground && !gameObject.tag.Equals("Player"))
+            {
+                if (!gameObject.name.Equals("Enemy_Zombie"))
+
+                    Jump();
+            }
+
+            if (Input.GetKeyDown("r"))
+            {
+                Hit();
+            }
         }
-        else in_ground = false;
-       
-
-
-        if (Input.GetKeyDown("space")&& in_ground && !gameObject.tag.Equals("Player"))
-        {
-            Jump();
-        }
-
-        if (Input.GetKeyDown("r"))
-        {
-            Hit();
-        }
-
         if(Health <= 0)
         {
             Dead();
@@ -134,9 +138,9 @@ public class Player_movment : MonoBehaviour
     }
     private void Dead()
     {
-        //StartCoroutine(DeadAnimation());
-        audioManager.PlayDeath();
-        SceneManager.LoadScene(sceneIndex);
+        enableInput = false;
+        StartCoroutine(DeadAnimation());
+        //SceneManager.LoadScene(sceneIndex);
     }
     public void Hit()
     {
@@ -154,7 +158,11 @@ public class Player_movment : MonoBehaviour
     {
         yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1);
         Debug.Log("Dead Enemy");
-        //Destroy(gameObject);
+        audioManager.PlayDeath();
+        if (gameObject.tag.Equals("Controlable"))
+            Destroy(gameObject);
+        else
+            SceneManager.LoadScene(sceneIndex);
     }
     
    

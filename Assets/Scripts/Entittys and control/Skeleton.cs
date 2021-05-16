@@ -29,7 +29,7 @@ public class Skeleton: MonoBehaviour
         }
         if (Health <= 0)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
     private void Shoot()
@@ -51,12 +51,6 @@ public class Skeleton: MonoBehaviour
             if (gameObject.tag.Equals("Controlable"))
                 Health -= 1;
         }
-    }
-    IEnumerator DeadAnimation()
-    {
-        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1);
-        Debug.Log("Dead Enemy");
-        //Destroy(gameObject);
     }
 }
 
