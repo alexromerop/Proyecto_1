@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Name
-      value: Enemy_Zombie
+      value: Enemy_Zombie Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
