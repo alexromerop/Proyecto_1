@@ -114,6 +114,8 @@ public class Player_movment : MonoBehaviour
             if (gameObject.tag.Equals("Player"))
                 Hit();
                 Destroy(collision.gameObject);
+            if (gameObject.tag.Equals("Controlable"))
+                Health -= 1;
         }
         if (collision.gameObject.tag.Equals("Pinchos"))
         {

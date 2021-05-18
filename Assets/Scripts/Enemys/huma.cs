@@ -24,16 +24,16 @@ public class huma : MonoBehaviour
             Vector3 direction = Alie[i].transform.position - transform.position;
             if (direction.x >= 0.0f)
             {
-                transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+                transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
                // Human.GetComponent<SpriteRenderer>().flipX = false;
             }
             else { 
-                transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+                transform.localScale = new Vector3(-0.8f, 0.8f, 0.8f);
                
             }
 
             float distance = Mathf.Abs(Alie[i].transform.position.x - transform.position.x);
-            if (distance < 1.0f && Time.time > LastShoot + 1.0f)
+            if (distance < 3.0f && Time.time > LastShoot + 1.5f)
             {
                 shoting = false;
                 Shoot();
@@ -51,11 +51,11 @@ public class huma : MonoBehaviour
         Debug.Log("Shoot");
 
         Vector3 direction;
-        if (transform.localScale.x == 1.0f) direction = Vector3.right;
+        if (transform.localScale.x == 0.8f) direction = Vector3.right;
         else direction = Vector3.left;
 
         //audioManager.PlayClicked();
-        GameObject instBullet = Instantiate(Bullet, transform.position + direction * 0.2f, Quaternion.identity);
+        GameObject instBullet = Instantiate(Bullet, transform.position + direction * 0.3f, Quaternion.identity);
         instBullet.GetComponent<BulletScript>().SetDirection(direction);
     }
 
