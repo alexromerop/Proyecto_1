@@ -79,6 +79,9 @@ public class Tuto_daemon : MonoBehaviour
         panel.SetActive(false);
         this.gameObject.SetActive(false);
         //efecto aparecer
-        Next_Daemon.SetActive(true);
+        if (Next_Daemon != null)
+        {
+            Next_Daemon.SetActive(true);
+        }
     }
 }
