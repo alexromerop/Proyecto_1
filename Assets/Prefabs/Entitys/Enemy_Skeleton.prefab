@@ -145,6 +145,8 @@ MonoBehaviour:
   audioManager: {fileID: 0}
   in_ground: 1
   Health: 1
+  enableInput: 1
+  spawn: {fileID: 0}
 --- !u!114 &676288784845341770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,5 +210,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11f247b614eef624a848a47984b9a79a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Info_to_show: {fileID: 2291765978169136506, guid: 08c683f7182f90143a502ade330b042b,
+  Info_to_show: {fileID: 2109360561298321774, guid: 162a3ddfefabba443ba4c8e0043203b7,
     type: 3}

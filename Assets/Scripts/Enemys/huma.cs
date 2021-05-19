@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class huma : MonoBehaviour
+public class Huma : MonoBehaviour
 {
     public GameObject[] Alie;
     public GameObject Prota;
     public GameObject Bullet;
     public int Health = 1;
-    private Player_movment _hit;
     public Animator animator;
     private float speed;
     public bool shoting;
