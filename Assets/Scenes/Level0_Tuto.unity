@@ -3157,6 +3157,11 @@ PrefabInstance:
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 1849254416}
+    - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1731983778}
     - target: {fileID: 8517944794023011330, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: audioManager
@@ -41228,6 +41233,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6555396750543998627, guid: b378dc16202c07e4dbcf3efed187ad0f,
     type: 3}
   m_PrefabInstance: {fileID: 1399149682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1731983778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8414621870348008397, guid: fe87adceb50fa174295299c90ba685ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 970983189}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1762704079
 GameObject:

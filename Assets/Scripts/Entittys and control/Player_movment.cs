@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Player_movment : MonoBehaviour
 {
 
@@ -26,8 +27,9 @@ public class Player_movment : MonoBehaviour
     public int Health = 1;
     private int sceneIndex;
 
-    bool enableInput = true;
+    public bool enableInput = true;
 
+    public GameObject spawn;
 
     void Start()
     {
@@ -69,10 +71,10 @@ public class Player_movment : MonoBehaviour
                     Jump();
             }
 
-            if (Input.GetKeyDown("r"))
+           /* if (Input.GetKeyDown("r"))
             {
                 Hit();
-            }
+            }*/
         }
         if(Health <= 0)
         {
@@ -87,7 +89,7 @@ public class Player_movment : MonoBehaviour
             animator.SetFloat("Speed", Mathf.Abs(horizontal));
             animator.SetBool("Grounded", in_ground);
         }
-        //habilidades segun enemigos
+        
         
 
     }
@@ -121,7 +123,7 @@ public class Player_movment : MonoBehaviour
         {
             if (gameObject.tag.Equals("Controlable"))
             {
-                Hit();
+                Health -= 1;
             }
         }
         if (collision.gameObject.tag.Equals("Infinite"))
@@ -158,13 +160,14 @@ public class Player_movment : MonoBehaviour
     }
     IEnumerator DeadAnimation()
     {
-        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1);
+        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0);
         Debug.Log("Dead Enemy");
         audioManager.PlayDeath();
-        if (gameObject.tag.Equals("Controlable"))
-            Destroy(gameObject);
-        else
-            SceneManager.LoadScene(sceneIndex);
+        spawn.GetComponent<Respawn_Entitys>().DEATH();
+       // if (gameObject.tag.Equals("Controlable"))
+            //Destroy(gameObject);
+       // else
+            //SceneManager.LoadScene(sceneIndex);
     }
     
    
