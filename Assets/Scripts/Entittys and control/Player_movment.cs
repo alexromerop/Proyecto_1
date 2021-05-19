@@ -31,6 +31,8 @@ public class Player_movment : MonoBehaviour
 
     public GameObject spawn;
 
+    public bool controlado;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -41,6 +43,18 @@ public class Player_movment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        
+            controlado = this.GetComponent<Player_movment>();
+        
+
+        if (animator != null)
+        {
+            animator.SetFloat("Health", Health);
+
+            animator.SetFloat("Speed", Mathf.Abs(horizontal));
+            animator.SetBool("Grounded", in_ground);
+        }
         if (enableInput)
         {
             horizontal = Input.GetAxisRaw("Horizontal");
@@ -82,13 +96,7 @@ public class Player_movment : MonoBehaviour
             //SceneManager.LoadScene(sceneIndex);
         }
 
-        if (animator != null)
-        {
-            animator.SetFloat("Health", Health);
-
-            animator.SetFloat("Speed", Mathf.Abs(horizontal));
-            animator.SetBool("Grounded", in_ground);
-        }
+       
         
         
 

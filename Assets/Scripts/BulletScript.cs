@@ -18,6 +18,8 @@ public class BulletScript : MonoBehaviour
     }
     private void Update()
     {
+       
+        
         Destroy(gameObject, 1);
     }
     // Update is called once per frame
