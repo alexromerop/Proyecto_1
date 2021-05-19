@@ -8,7 +8,7 @@ public class Skeleton: MonoBehaviour
     public GameObject Bullet;
     public AudioManager audioManager;
 
-    public int Health = 1;
+   
 
     private float LastShoot;
     private Animator animator;
@@ -27,10 +27,7 @@ public class Skeleton: MonoBehaviour
                 LastShoot = Time.time;
             }
         }
-        if (Health <= 0)
-        {
-            //Destroy(gameObject);
-        }
+       
     }
     private void Shoot()
     {
@@ -43,14 +40,6 @@ public class Skeleton: MonoBehaviour
         GameObject instBullet = Instantiate(Bullet, transform.position + direction*0.2f, Quaternion.identity);
         instBullet.GetComponent<BulletScript>().SetDirection(direction);
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-
-        if (collision.gameObject.tag.Equals("Bullet") || collision.gameObject.tag.Equals("Enemy"))
-        {
-            if (gameObject.tag.Equals("Controlable"))
-                Health -= 1;
-        }
-    }
+   
 }
 

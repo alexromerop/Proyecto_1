@@ -38,7 +38,6 @@ MonoBehaviour:
   zombie: {fileID: 6555396750543998649}
   horizontal: 0
   zombie_pos: {x: 0, y: 0}
-  Health: 1
   timetotake: 0
 --- !u!1001 &3228134484533439136
 PrefabInstance:
@@ -121,12 +120,12 @@ PrefabInstance:
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4178276
+      value: -4.698
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5842967
+      value: -0.796
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
@@ -186,7 +185,7 @@ PrefabInstance:
     - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Name
-      value: Enemy_Zombie Variant
+      value: Enemy_Zombie
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}

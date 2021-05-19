@@ -13,7 +13,7 @@ public class Zombie : MonoBehaviour
     Rigidbody2D Rigidbody2D;
     public float horizontal;
     public Vector2 zombie_pos;
-    public int Health = 1;
+    
 
 
     private GameObject boxTaken = null;
@@ -93,25 +93,7 @@ public class Zombie : MonoBehaviour
             other.gameObject.GetComponent<Rigidbody2D>().bodyType += 2;
         }
     }
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-       /* if (other.gameObject.tag.Equals("Cogible"))
-        {
-            other.gameObject.GetComponent<BoxCollider2D>().enabled = true;
-
-        }*/
-
-        if (other.gameObject.tag.Equals("Bullet"))
-        {
-            if (gameObject.tag.Equals("Controlable"))
-                Health -= 1;
-            //if (Health == 0)
-            //{
-            //    Debug.Log("Dead");
-            //    Destroy(gameObject);
-            //}
-        }
-    }
+    
     private void TakeBox(GameObject box)
     {
         //box.GetComponent<Rigidbody2D>().position = zombie.GetComponent<Rigidbody2D>().position;
