@@ -1772,6 +1772,11 @@ PrefabInstance:
       propertyPath: JumpForce
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 8715918230084219095, guid: 98a7e72f94f313d428312549e9ad174a,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1703152450}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a7e72f94f313d428312549e9ad174a, type: 3}
 --- !u!1001 &616619944
@@ -22055,6 +22060,12 @@ GameObject:
 --- !u!4 &1703152448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7314986981789458365, guid: 98a7e72f94f313d428312549e9ad174a,
+    type: 3}
+  m_PrefabInstance: {fileID: 604905366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1703152450 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 357819267091940729, guid: 98a7e72f94f313d428312549e9ad174a,
     type: 3}
   m_PrefabInstance: {fileID: 604905366}
   m_PrefabAsset: {fileID: 0}

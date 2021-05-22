@@ -54,6 +54,7 @@ public class Player_movment : MonoBehaviour
 
             animator.SetFloat("Speed", Mathf.Abs(horizontal));
             animator.SetBool("Grounded", in_ground);
+            //animator.SetBool("Possesed", controlado);
         }
         if (enableInput)
         {
