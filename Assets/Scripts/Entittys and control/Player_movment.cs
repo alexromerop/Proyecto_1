@@ -31,7 +31,7 @@ public class Player_movment : MonoBehaviour
 
     public GameObject spawn;
 
-    public bool controlado;
+    public bool controlled = false;
 
     void Start()
     {
@@ -48,18 +48,13 @@ public class Player_movment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        
-            controlado = GetComponent<Player_movment>();
-        
-
         if (animator != null)
         {
             animator.SetFloat("Health", Health);
 
             animator.SetFloat("Speed", Mathf.Abs(horizontal));
             animator.SetBool("Grounded", in_ground);
-            //animator.SetBool("Possesed", controlado);
+            animator.SetBool("Possesed", controlled);
         }
         if (enableInput)
         {
@@ -67,7 +62,7 @@ public class Player_movment : MonoBehaviour
 
             //añadir voladores en controller.loquesea
 
-
+            controlled = true;
 
             //flip body
             if (horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);

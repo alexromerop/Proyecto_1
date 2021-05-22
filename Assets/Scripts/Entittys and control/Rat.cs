@@ -8,8 +8,8 @@ public class Rat : MonoBehaviour
     Rigidbody2D Rigidbody2D;
 
     public int Health = 1;
-    public bool in_wall= false;
-    public float vertical =0;
+    public bool in_wall = false;
+    public float vertical = 0;
     private float LastShoot;
     public void Start()
     {
