@@ -13,11 +13,7 @@ public class ButtonBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //door = GameObject.Find("Door");
-        if (renderer == null)
-        {
-            renderer = gameObject.GetComponent<SpriteRenderer>();
-        }
+        renderer = gameObject.GetComponent<SpriteRenderer>();
         if(target != null)
         {
             targetPos = target.transform.position;
@@ -35,7 +31,7 @@ public class ButtonBehaviour : MonoBehaviour
     {
         Debug.Log("Platform destroyed");
         Destroy(gameObject);
-        ChangeSprite();
+        //ChangeSprite();
     }
 
     private void ChangeSprite()

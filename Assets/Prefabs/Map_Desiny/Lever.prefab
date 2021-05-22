@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4454292769806069619}
   - component: {fileID: 4454292769806069618}
   - component: {fileID: 4454292769806069617}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,6 +111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InteractibleCircle
       objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188137, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5549757026594188140, guid: af155a6b765538b49b1257da39cfd14c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -168,6 +173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
         type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DestroyObject
       objectReference: {fileID: 0}
@@ -180,6 +190,42 @@ PrefabInstance:
         type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4454292769806069617}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 4454292769806069618}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: -2746839580606631015, guid: 9da8331b7e7115747bd03f25dc251da9,
+        type: 3}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Sprite, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188142, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af155a6b765538b49b1257da39cfd14c, type: 3}

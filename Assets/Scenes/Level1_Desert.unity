@@ -27304,22 +27304,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lever
       objectReference: {fileID: 0}
-    - target: {fileID: 4454292769806069620, guid: 23045ae59a8ea2a46a2e0dfa0dcd1769,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4890376110083355921, guid: 23045ae59a8ea2a46a2e0dfa0dcd1769,
-        type: 3}
-      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 1949377815}
-    - target: {fileID: 4890376110083355926, guid: 23045ae59a8ea2a46a2e0dfa0dcd1769,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8130230086627858573, guid: 23045ae59a8ea2a46a2e0dfa0dcd1769,
         type: 3}
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
