@@ -36,7 +36,12 @@ public class Player_movment : MonoBehaviour
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
-        sceneIndex = GameManagerSingleton.instance.scene;
+        if(GameManagerSingleton.instance == null)
+        {
+            sceneIndex = 0;
+        } else { 
+            sceneIndex = GameManagerSingleton.instance.scene; 
+        }
         enableInput = true;
     }
 
@@ -45,7 +50,7 @@ public class Player_movment : MonoBehaviour
     {
         
         
-            controlado = this.GetComponent<Player_movment>();
+            controlado = GetComponent<Player_movment>();
         
 
         if (animator != null)

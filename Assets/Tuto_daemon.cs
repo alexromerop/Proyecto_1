@@ -76,8 +76,11 @@ public class Tuto_daemon : MonoBehaviour
     private void daemons_active()
     {
         //efecto desaparecere
-        panel.SetActive(false);
-        this.gameObject.SetActive(false);
+        if (panel != null)
+        {
+            panel.SetActive(false);
+        }
+        gameObject.SetActive(false);
         //efecto aparecer
         if (Next_Daemon != null)
         {

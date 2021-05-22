@@ -11,10 +11,9 @@ public class Skeleton: MonoBehaviour
    
 
     private float LastShoot;
-    private Animator animator;
     public void Start()
     {
-        animator = GetComponent<Animator>();
+        
     }
     public void Update()
     {

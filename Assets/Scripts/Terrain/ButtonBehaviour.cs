@@ -14,7 +14,10 @@ public class ButtonBehaviour : MonoBehaviour
     void Start()
     {
         //door = GameObject.Find("Door");
-        renderer = GetComponentInParent<SpriteRenderer>();
+        if (renderer == null)
+        {
+            renderer = gameObject.GetComponent<SpriteRenderer>();
+        }
         if(target != null)
         {
             targetPos = target.transform.position;
@@ -37,6 +40,7 @@ public class ButtonBehaviour : MonoBehaviour
 
     private void ChangeSprite()
     {
+        Debug.Log("Change Sprite");
         renderer.sprite = sprite;
     }
 }
