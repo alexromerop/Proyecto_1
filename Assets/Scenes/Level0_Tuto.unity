@@ -2492,6 +2492,16 @@ PrefabInstance:
       propertyPath: spawn
       value: 
       objectReference: {fileID: 1731983778}
+    - target: {fileID: 8222563442754023483, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: ClampVelocityModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222563442754023483, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011330, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: audioManager

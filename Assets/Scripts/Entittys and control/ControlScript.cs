@@ -28,6 +28,7 @@ public class ControlScript : MonoBehaviour
         CurrentControl = player;
         camera.SetTarget(player);
         player.GetComponent<Player_movment>().controlled = true;
+        player.GetComponent<ParticleSystem>().Play();
     }
 
     public void UnPosses()
