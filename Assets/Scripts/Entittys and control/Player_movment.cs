@@ -147,7 +147,7 @@ public class Player_movment : MonoBehaviour
     {
         yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0);
         Debug.Log("Dead Enemy");
-        audioManager.PlayDeath();
+        //audioManager.PlayDeath();
         spawn.GetComponent<Respawn_Entitys>().DEATH();
        // if (gameObject.tag.Equals("Controlable"))
             //Destroy(gameObject);
