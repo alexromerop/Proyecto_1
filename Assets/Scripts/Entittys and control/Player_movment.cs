@@ -6,11 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class Player_movment : MonoBehaviour
 {
-
-
-
-    
-  
     public float Speed;
     public float JumpForce;
     public bool in_control;
@@ -48,36 +43,24 @@ public class Player_movment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (animator != null)
-        {
-            animator.SetFloat("Health", Health);
-
-            animator.SetFloat("Speed", Mathf.Abs(horizontal));
-            animator.SetBool("Grounded", in_ground);
-            animator.SetBool("Possesed", controlled);
-        }
+        animator.SetFloat("Health", Health);
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        animator.SetBool("Grounded", in_ground);
+        animator.SetBool("Possesed", controlled);
+        
         if (enableInput)
         {
             horizontal = Input.GetAxisRaw("Horizontal");
 
-            //añadir voladores en controller.loquesea
-
-            controlled = true;
-
             //flip body
             if (horizontal < 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
             else if (horizontal > 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-
-
-
 
             if (Physics2D.Raycast(transform.position, Vector3.down, 0.2f))
             {
                 in_ground = true;
             }
             else in_ground = false;
-
-
 
             if (Input.GetKeyDown("space") && in_ground && !gameObject.tag.Equals("Player"))
             {
@@ -96,17 +79,10 @@ public class Player_movment : MonoBehaviour
             Dead();
             //SceneManager.LoadScene(sceneIndex);
         }
-
-       
-        
-        
-
     }
     private void Jump()
     {
-        
         Rigidbody2D.AddForce(transform.up*JumpForce);
-
     }
 
 
@@ -178,9 +154,5 @@ public class Player_movment : MonoBehaviour
        // else
             //SceneManager.LoadScene(sceneIndex);
     }
-    
-   
-
-
 }
 

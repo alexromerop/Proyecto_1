@@ -27,10 +27,12 @@ public class ControlScript : MonoBehaviour
         }
         CurrentControl = player;
         camera.SetTarget(player);
+        player.GetComponent<Player_movment>().controlled = true;
     }
 
     public void UnPosses()
     {
+        CurrentControl.GetComponent<Player_movment>().controlled = false;
         CurrentControl.GetComponent<Player_movment>().enabled = false;
         CanControl[0].transform.position = CurrentControl.transform.position;
         CurrentControl = CanControl[0];

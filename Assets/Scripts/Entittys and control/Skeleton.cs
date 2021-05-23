@@ -26,7 +26,6 @@ public class Skeleton: MonoBehaviour
                 LastShoot = Time.time;
             }
         }
-       
     }
     private void Shoot()
     {
