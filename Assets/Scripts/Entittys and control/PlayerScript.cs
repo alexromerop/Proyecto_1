@@ -25,6 +25,7 @@ public class PlayerScript : MonoBehaviour
                 //Destroy(control.CurrentControl);
                 Destroy(control.CurrentControl);
             }*/
+            control.CurrentControl.GetComponent<Player_movment>().controlled = false;
             StartCoroutine(UnPosses());
             //player.transform.position = control.transform.position;
         }
