@@ -1228,21 +1228,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1000353918}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &511522190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511522189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee6500b9e1633474faf6f273ace8f71d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  box: {fileID: 511522189}
-  puede_mover: {fileID: 1704733320}
-  contador: 0
 --- !u!4 &511522195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8637241444988765897, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
@@ -1986,41 +1971,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1908270522}
     m_Modifications:
-    - target: {fileID: 1389837437, guid: 4ecb225648f51be4f9e4ee732a28c9c2, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.008730978
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389837437, guid: 4ecb225648f51be4f9e4ee732a28c9c2, type: 3}
-      propertyPath: m_Size.y
-      value: 0.6799348
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389837437, guid: 4ecb225648f51be4f9e4ee732a28c9c2, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389837437, guid: 4ecb225648f51be4f9e4ee732a28c9c2, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.003833294
-      objectReference: {fileID: 0}
-    - target: {fileID: 1389837437, guid: 4ecb225648f51be4f9e4ee732a28c9c2, type: 3}
-      propertyPath: m_Size.x
-      value: 1.3297148
-      objectReference: {fileID: 0}
-    - target: {fileID: 8637241444988765896, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
+    - target: {fileID: 6338789047294067055, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
         type: 3}
-      propertyPath: m_Offset.y
-      value: 0.00088763237
-      objectReference: {fileID: 0}
-    - target: {fileID: 8637241444988765896, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.222247
-      objectReference: {fileID: 0}
-    - target: {fileID: 8637241444988765896, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
-        type: 3}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: puede_mover
+      value: 
+      objectReference: {fileID: 1704733320}
     - target: {fileID: 8637241444988765897, guid: 4ecb225648f51be4f9e4ee732a28c9c2,
         type: 3}
       propertyPath: m_LocalPosition.x

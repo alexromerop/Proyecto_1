@@ -20,7 +20,7 @@ public class BulletScript : MonoBehaviour
     {
        
         
-        Destroy(gameObject, 1);
+        Destroy(gameObject, 1.5f);
     }
     // Update is called once per frame
     private void FixedUpdate()

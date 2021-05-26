@@ -18,7 +18,7 @@ public class Zombie : MonoBehaviour
 
     private GameObject boxTaken = null;
     private float LastShoot;
-    private bool taken;
+    public bool taken;
     public float timetotake = 0;
     public void Start()
     {
@@ -56,25 +56,16 @@ public class Zombie : MonoBehaviour
    
     private void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("trigger");
+        //Debug.Log("trigger");
         if (other.gameObject.tag.Equals("Cogible"))
         {
-
+            Debug.Log("trigger");
             if (Input.GetKeyDown(KeyCode.E) && !taken && timetotake == 0)
             {
                 //other.gameObject.GetComponent<BoxCollider2D>().enabled= false;
                 TakeBox(other.gameObject);
                 Debug.Log("Take");
                 taken = true;
-                //flip rotations
-                float z_= 0;
-                if (other.gameObject.transform.rotation.z <= 80)
-                {
-                    z_ += 90;
-                }
-                else
-                    z_ = 0;
-                other.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, z_));
                 timetotake = 500;
             }
         }
@@ -83,14 +74,15 @@ public class Zombie : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Cogible"))
         {
-            other.gameObject.GetComponent<Rigidbody2D>().bodyType -= 2;
+            other.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.tag.Equals("Cogible"))
         {
-            other.gameObject.GetComponent<Rigidbody2D>().bodyType += 2;
+            other.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         }
     }
     
@@ -107,22 +99,21 @@ public class Zombie : MonoBehaviour
                 box.transform.position = zombie.transform.position + new Vector3(0, 0.33f, 0); 
             
         }
-        if (horizontal > 0.0f)
+        if (horizontal >= 0.0f)
         {
             
                 box.transform.position = zombie.transform.position + new Vector3(0, 0.33f, 0);
             
         }
         box.transform.SetParent(zombie.transform);
-        box.GetComponent<Rigidbody2D>().isKinematic= true;
+        box.GetComponent<Rigidbody2D>().isKinematic = true;
+        //box.GetComponent<Rigidbody2D>().useFullKinematicContacts = true;
         boxTaken = box;
 
     }
 
     private void LeaveBox(GameObject box)
     {
-        //box.AddComponent<Rigidbody2D>();
-        box.GetComponent<Rigidbody2D>().position = transform.position;
         box.GetComponent<Rigidbody2D>().isKinematic = false;
         box.transform.SetParent(null);
         taken = false;

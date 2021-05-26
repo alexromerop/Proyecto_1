@@ -10,8 +10,8 @@ TagManager:
   - Cogible
   - Controlable
   - Pinchos
-  - Inifinite
   - terrain
+  - BoxDownGround
   layers:
   - Default
   - TransparentFX
