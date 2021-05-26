@@ -13,14 +13,16 @@ public class Box_script : MonoBehaviour
     
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() { 
+    
+    /*
         //Debug.Log(contador);
        if (contador == 1)
        {
             Debug.Log("waiting");
             StartCoroutine(Wait_box());
        }
+       */
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -38,7 +40,7 @@ public class Box_script : MonoBehaviour
         //   transform.position = transform.position;
         //}
     }
-
+    /*
     IEnumerator Wait_box()
     {
         yield return new WaitForSeconds(0.35f);
@@ -48,5 +50,6 @@ public class Box_script : MonoBehaviour
         }
         contador = 0;
         Debug.Log("stop");
-    }
+    
+    */
 }
