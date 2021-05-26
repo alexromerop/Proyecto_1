@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: c7eb2dcd3b9d80c4f9b855a71e02f962
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7807883409197447451
+    second: Zombie_Possesed (1)_0
+  - first:
+      213: 5731368524133474827
+    second: Zombie_Possesed (1)_1
+  - first:
+      213: -8133522556666925563
+    second: Zombie_Possesed (1)_2
+  - first:
+      213: -4319474683445797610
+    second: Zombie_Possesed (1)_3
+  - first:
+      213: 8435638586090008363
+    second: Zombie_Possesed (1)_4
+  - first:
+      213: 1672845183961473430
+    second: Zombie_Possesed (1)_5
+  - first:
+      213: 2411948507904336938
+    second: Zombie_Possesed (1)_6
+  - first:
+      213: -6459521298405750153
+    second: Zombie_Possesed (1)_7
+  - first:
+      213: -4089572263242870170
+    second: Zombie_Possesed (1)_8
+  - first:
+      213: -3671808932499860288
+    second: Zombie_Possesed (1)_9
+  - first:
+      213: 5314207619974906333
+    second: Zombie_Possesed (1)_10
+  - first:
+      213: -8916028454768038205
+    second: Zombie_Possesed (1)_11
+  - first:
+      213: -968624056782323000
+    second: Zombie_Possesed (1)_12
+  - first:
+      213: -948933107468444277
+    second: Zombie_Possesed (1)_13
+  - first:
+      213: 3282688938079942671
+    second: Zombie_Possesed (1)_14
+  - first:
+      213: -4198187481976825996
+    second: Zombie_Possesed (1)_15
+  - first:
+      213: 6663846141206736252
+    second: Zombie_Possesed (1)_16
+  - first:
+      213: 3864998039737848288
+    second: Zombie_Possesed (1)_17
+  - first:
+      213: -886272571741298787
+    second: Zombie_Possesed (1)_18
+  - first:
+      213: -8246370461468119350
+    second: Zombie_Possesed (1)_19
+  - first:
+      213: 493150904842038471
+    second: Zombie_Possesed (1)_20
+  - first:
+      213: 3087032633702769273
+    second: Zombie_Possesed (1)_21
+  - first:
+      213: -6337471208407266594
+    second: Zombie_Possesed (1)_22
+  - first:
+      213: -6008181391641098313
+    second: Zombie_Possesed (1)_23
+  - first:
+      213: 1851324805933059096
+    second: Zombie_Possesed (1)_24
+  - first:
+      213: -5157360296863976054
+    second: Zombie_Possesed (1)_25
+  - first:
+      213: 5876581972869838247
+    second: Zombie_Possesed (1)_26
+  - first:
+      213: 3791512805788735056
+    second: Zombie_Possesed (1)_27
+  - first:
+      213: 2119645064922276245
+    second: Zombie_Possesed (1)_28
+  - first:
+      213: -3520214474340962790
+    second: Zombie_Possesed (1)_29
+  - first:
+      213: -4839506206981220655
+    second: Zombie_Possesed (1)_30
+  - first:
+      213: -5264557802063435752
+    second: Zombie_Possesed (1)_31
+  - first:
+      213: 635736063552071953
+    second: Zombie_Possesed (1)_32
+  - first:
+      213: -2307533917617982691
+    second: Zombie_Possesed (1)_33
+  - first:
+      213: -6038983183512288927
+    second: Zombie_Possesed (1)_34
+  - first:
+      213: 3953079201840787670
+    second: Zombie_Possesed (1)_35
+  - first:
+      213: -350691210845568690
+    second: Zombie_Possesed (1)_36
+  - first:
+      213: 436983906687751670
+    second: Zombie_Possesed (1)_37
+  - first:
+      213: 1128080528522134046
+    second: Zombie_Possesed (1)_38
+  - first:
+      213: 8194479103904005931
+    second: Zombie_Possesed (1)_39
+  - first:
+      213: 2730156987224530259
+    second: Zombie_Possesed (1)_40
+  - first:
+      213: -641085995793055843
+    second: Zombie_Possesed (1)_41
+  - first:
+      213: 7263340073780507655
+    second: Zombie_Possesed (1)_42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 242
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6ce134863d4a390800000000000000
+      internalID: -7807883409197447451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 243
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02a4dd7e49e98f40800000000000000
+      internalID: 5731368524133474827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 242
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ead35f35cef1f80800000000000000
+      internalID: -8133522556666925563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 242
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d9be439a42e04c0800000000000000
+      internalID: -4319474683445797610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 194
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24eb2e8366f87120800000000000000
+      internalID: 2411948507904336938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 194
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a84756a9b2b56a0800000000000000
+      internalID: -6459521298405750153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 194
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6625e1ea1bbee37c0800000000000000
+      internalID: -4089572263242870170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 194
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c45d3fda3d1b0dc0800000000000000
+      internalID: -3671808932499860288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 194
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1474bacabdfb940800000000000000
+      internalID: 5314207619974906333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 194
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cea64a0c57e34480800000000000000
+      internalID: -8916028454768038205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 146
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c287966d81ce82f0800000000000000
+      internalID: -968624056782323000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 146
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d5cbdcd56b4d2f0800000000000000
+      internalID: -948933107468444277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 146
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08fb5e52347e8d20800000000000000
+      internalID: 3282688938079942671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 146
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47797446aba0db5c0800000000000000
+      internalID: -4198187481976825996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 146
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d2c7442ccba7c50800000000000000
+      internalID: 6663846141206736252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 146
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1d7205d3b33a530800000000000000
+      internalID: 3864998039737848288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 98
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f103baac353b3f0800000000000000
+      internalID: -886272571741298787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 98
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97264e513d757da20800000000000000
+      internalID: 3087032633702769273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_23
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 98
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7ce156bd6ae9ca0800000000000000
+      internalID: -6008181391641098313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 50
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c428d2a1a31b910800000000000000
+      internalID: 1851324805933059096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 50
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056d16efec82e9430800000000000000
+      internalID: 3791512805788735056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 50
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5912a98c4fd7a6d10800000000000000
+      internalID: 2119645064922276245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_29
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 50
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ee7b3269fa52fc0800000000000000
+      internalID: -3520214474340962790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 50
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6169cdebe96dcb0800000000000000
+      internalID: -4839506206981220655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_31
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 50
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8186f74629880f6b0800000000000000
+      internalID: -5264557802063435752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ff646fea76a17f0800000000000000
+      internalID: -641085995793055843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Possesed (1)_42
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704fb8470519cc460800000000000000
+      internalID: 7263340073780507655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 71715b1c31d6c1c408b386b23f704bf3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
