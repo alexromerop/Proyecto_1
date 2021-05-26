@@ -27,7 +27,7 @@ public class Rat : MonoBehaviour
                 LastShoot = Time.time;
             }
         }
-        if (Physics2D.Raycast(transform.position, Vector3.right, 0.16f))
+        if (Physics2D.Raycast(transform.position, Vector3.right, 0.16f, LayerMask.GetMask("Default")))
         {
             if (in_wall == false) { 
                 transform.Rotate(0, 0, 90);
@@ -35,7 +35,7 @@ public class Rat : MonoBehaviour
             }
 
         }
-        else if (Physics2D.Raycast(transform.position, Vector3.left, 0.16f))
+        else if (Physics2D.Raycast(transform.position, Vector3.left, 0.16f, LayerMask.GetMask("Default")))
         {
             if (in_wall == false) { 
             transform.Rotate(0, 0, -90);
