@@ -63,8 +63,8 @@ public class Humano : MonoBehaviour
         
         if (collision.gameObject.tag.Equals("Bullet"))
         {
-            if (gameObject.tag.Equals("Enemy"))
-                Health -= 1;
+            /*if (gameObject.tag.Equals("Enemy"))
+                Health -= 1;*/
             if (Health == 0) {
                 
                 Debug.Log("Dead Enemy");

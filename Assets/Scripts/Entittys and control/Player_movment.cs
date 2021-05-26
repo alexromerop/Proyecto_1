@@ -100,7 +100,6 @@ public class Player_movment : MonoBehaviour
         if (collision.gameObject.tag.Equals("Bullet")) {
             if (gameObject.tag.Equals("Player"))
                 Hit();
-                Destroy(collision.gameObject);
             if (gameObject.tag.Equals("Controlable"))
                 Health -= 1;
         }
@@ -111,15 +110,7 @@ public class Player_movment : MonoBehaviour
                 Health -= 1;
             }
         }
-        if (collision.gameObject.tag.Equals("Infinite"))
-        {
-            if (gameObject.tag.Equals("Controlable"))
-            {
-                Debug.Log("Respawn on Checkpoint, Reload Scene");
-                Hit();
-            }
-        } 
-}
+        }
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Plataform"))

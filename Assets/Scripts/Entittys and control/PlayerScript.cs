@@ -32,6 +32,8 @@ public class PlayerScript : MonoBehaviour
     }
     void OnMouseDown()
     {
+        control.CurrentControl.GetComponent<Player_movment>().controlled = false;
+
         control.Posses(gameObject);
         GetComponent<Player_movment>().enabled = true;
         player.SetActive(false);
