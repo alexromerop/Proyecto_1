@@ -599,10 +599,12 @@ PrefabInstance:
       objectReference: {fileID: 2035454196}
     - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
       propertyPath: m_Text
-      value: 'Para saltar usa
+      value: 'Posses the skeleton with LEFT CLICK.
 
+        The Skeleton can Jump
+        pressing SPACE
 
-        Y para posser'
+'
       objectReference: {fileID: 0}
     - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
         type: 3}
@@ -1044,6 +1046,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1762704084}
+    - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Text
+      value: 'Hi player,
+
+        You can move with WASD
+
+        Interact with E.
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1459,7 +1471,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
       propertyPath: m_Text
-      value: 'Cada Ser tiene su habilidad caracterisitica, utilizalas con la '
+      value: 'Each creature has an unique ability.
+
+        Try with E.
+
+        Finish
+        with a CREATURE.'
       objectReference: {fileID: 0}
     - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
         type: 3}
