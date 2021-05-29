@@ -19,6 +19,7 @@ public class ControlScript : MonoBehaviour
     }
     public void Posses(GameObject player)
     {
+        CurrentControl.GetComponent<Animator>().SetBool("Possesed", false);
         CurrentControl.GetComponent<Player_movment>().enabled = false;
         //CurrentControl.GetComponent<CapsuleCollider2D>().enabled = false;
         if (CurrentControl == CanControl[0])
@@ -27,22 +28,16 @@ public class ControlScript : MonoBehaviour
         }
         CurrentControl = player;
         camera.SetTarget(player);
-        player.GetComponent<Player_movment>().controlled = true;
+        player.GetComponent<Animator>().SetBool("Possesed", true);
         player.GetComponent<ParticleSystem>().Play();
     }
 
     public void UnPosses()
     {
-        //ControlledToFalse();
         CurrentControl.GetComponent<Player_movment>().enabled = false;
         CanControl[0].transform.position = CurrentControl.transform.position;
         CurrentControl = CanControl[0];
         camera.SetTarget(CanControl[0]);
         CurrentControl.SetActive(true);
     }
-
-    private void ControlledToFalse()
-    {
-        CurrentControl.GetComponent<Player_movment>().controlled = false;
-    } 
 }

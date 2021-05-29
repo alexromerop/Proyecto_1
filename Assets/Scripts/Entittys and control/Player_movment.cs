@@ -26,10 +26,11 @@ public class Player_movment : MonoBehaviour
 
     public GameObject spawn;
 
-    public bool controlled = false;
+    private bool controlled = false;
 
     void Start()
     {
+        controlled = false;
         Rigidbody2D = GetComponent<Rigidbody2D>();
         if(GameManagerSingleton.instance == null)
         {
@@ -38,6 +39,7 @@ public class Player_movment : MonoBehaviour
             sceneIndex = GameManagerSingleton.instance.scene; 
         }
         enableInput = true;
+        //animator.SetBool("Possesed", controlled);
     }
 
     // Update is called once per frame
@@ -46,7 +48,6 @@ public class Player_movment : MonoBehaviour
         animator.SetFloat("Health", Health);
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
         animator.SetBool("Grounded", in_ground);
-        animator.SetBool("Possesed", controlled);
         
         if (enableInput)
         {

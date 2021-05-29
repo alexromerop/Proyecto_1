@@ -25,22 +25,20 @@ public class PlayerScript : MonoBehaviour
                 //Destroy(control.CurrentControl);
                 Destroy(control.CurrentControl);
             }*/
-            control.CurrentControl.GetComponent<Player_movment>().controlled = false;
+            control.CurrentControl.GetComponent<Animator>().SetBool("Possesed", false);
             StartCoroutine(UnPosses());
             //player.transform.position = control.transform.position;
         }
     }
     void OnMouseDown()
     {
-        control.CurrentControl.GetComponent<Player_movment>().controlled = false;
-
         control.Posses(gameObject);
         GetComponent<Player_movment>().enabled = true;
         player.SetActive(false);
     }
     IEnumerator UnPosses()
     {
-        yield return new WaitForSeconds(0.9f);
+        yield return new WaitForSeconds(0.5f);
         control.UnPosses();
         control.CanControl[0].GetComponent<Player_movment>().enabled = true;
     }

@@ -26795,7 +26795,8 @@ PrefabInstance:
       objectReference: {fileID: 2072159345}
     - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
       propertyPath: m_Text
-      value: 'TIP: If a creature dies it will respawn in its original position.'
+      value: 'TIPS: If a creature dies it will respawn in its original position.
+        Press G to deposses a creature'
       objectReference: {fileID: 0}
     - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
         type: 3}

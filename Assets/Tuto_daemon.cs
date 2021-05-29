@@ -65,7 +65,7 @@ public class Tuto_daemon : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag.Equals("Player") || collision.tag.Equals("Control"))
+        if (collision.tag.Equals("Player") || collision.tag.Equals("Controlable"))
         {
             if (Input.GetKeyDown("e"))
             {
@@ -78,7 +78,7 @@ public class Tuto_daemon : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag.Equals("Player") || collision.tag.Equals("Control"))
+        if (collision.tag.Equals("Player") || collision.tag.Equals("Controlable"))
         {
 
             daemons_active();
