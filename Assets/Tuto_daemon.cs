@@ -47,13 +47,13 @@ public class Tuto_daemon : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown("e"))
-        {
+        //if (Input.GetKeyDown("e"))
+        //{
 
-            daemons_active();
+        //    daemons_active();
 
 
-        }
+        //}
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -63,7 +63,19 @@ public class Tuto_daemon : MonoBehaviour
         }
     }
 
-   
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag.Equals("Player") || collision.tag.Equals("Control"))
+        {
+            if (Input.GetKeyDown("e"))
+            {
+
+                daemons_active();
+
+
+            }
+        }
+    }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag.Equals("Player") || collision.tag.Equals("Control"))

@@ -317,6 +317,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &92948369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+    type: 3}
+  m_PrefabInstance: {fileID: 1897025418}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &103742913
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,6 +460,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1294055523, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: Next_Daemon
+      value: 
+      objectReference: {fileID: 92948369}
+    - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Text
+      value: Hi player, rats can climb walls. Use theam at your advantage.
+      objectReference: {fileID: 0}
     - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -467,7 +481,7 @@ PrefabInstance:
     - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.14999998
       objectReference: {fileID: 0}
     - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
         type: 3}
@@ -2011,7 +2025,7 @@ PrefabInstance:
     - target: {fileID: 7985299858879569462, guid: c1e016b189d2add45a2ba7127b93e706,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7985299858879569462, guid: c1e016b189d2add45a2ba7127b93e706,
         type: 3}
@@ -24414,6 +24428,95 @@ MonoBehaviour:
   parallaxEffectMultiplayer: {x: 0.7, y: 0.5}
   infiniteHorizontal: 1
   infiniteVertical: 0
+--- !u!1 &1126039473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+    type: 3}
+  m_PrefabInstance: {fileID: 1962588806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1126106981
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1294055523, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: Next_Daemon
+      value: 
+      objectReference: {fileID: 1126039473}
+    - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Text
+      value: Look out for cracks in platforms. Levers will interact with them. Try
+        it with E.
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_Name
+      value: Diablo_guia (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
 --- !u!1 &1129194459
 GameObject:
   m_ObjectHideFlags: 0
@@ -24734,52 +24837,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &1251280503 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
-    type: 3}
-  m_PrefabInstance: {fileID: 128619745}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1251280504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251280503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7122acc5f345dc54baebeba4da6df440, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 0}
-  Next_Daemon: {fileID: 0}
---- !u!61 &1251280505
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251280503}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.72042775, y: 0.021527648}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.25}
-    newSize: {x: 0.18, y: 0.24}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.6492133, y: 3.148692}
-  m_EdgeRadius: 0
 --- !u!1001 &1269450529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26725,6 +26782,88 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 827617652}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1854654865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1294055523, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: Next_Daemon
+      value: 
+      objectReference: {fileID: 2072159345}
+    - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Text
+      value: 'TIP: If a creature dies it will respawn in its original position.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_Name
+      value: Diablo_guia (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
 --- !u!1 &1868873891 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6555396750543998649, guid: b378dc16202c07e4dbcf3efed187ad0f,
@@ -26771,6 +26910,89 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1897025418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1294055523, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: Next_Daemon
+      value: 
+      objectReference: {fileID: 1990771429}
+    - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Text
+      value: If a platform is in a diferent color it can move pressing a button using
+        E. Try it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_Name
+      value: Diablo_guia (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
 --- !u!1 &1949377815
 GameObject:
   m_ObjectHideFlags: 0
@@ -27007,6 +27229,91 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1962588806
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Text
+      value: "Watch out!! You cannot posses humans and they will attack you. \nFind
+        a way to deal with it :)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.14999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_Name
+      value: Diablo_guia (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+--- !u!1 &1990771429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+    type: 3}
+  m_PrefabInstance: {fileID: 1854654865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1999478552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27415,6 +27722,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1201097075}
   finalLevelUI: {fileID: 1328564779}
+--- !u!1 &2072159345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+    type: 3}
+  m_PrefabInstance: {fileID: 1126106981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2082780202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1264877370989928494, guid: c436f27898df9f8479a6d511534b8833,
