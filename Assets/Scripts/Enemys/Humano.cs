@@ -7,7 +7,7 @@ public class Humano : MonoBehaviour
     public GameObject[] Alie;
     public GameObject Prota;
     public GameObject Bullet;
-    public int Health = 1;
+    public int Health = 2;
     public Animator animator;
     private float speed;
     public bool shoting;
@@ -44,6 +44,12 @@ public class Humano : MonoBehaviour
             
 
         }
+        if (Health == 0)
+        {
+
+            Debug.Log("Dead Enemy");
+            Destroy(gameObject);
+        }
     }
     private void Shoot()
     {
@@ -63,17 +69,7 @@ public class Humano : MonoBehaviour
         
         if (collision.gameObject.tag.Equals("Bullet"))
         {
-            /*if (gameObject.tag.Equals("Enemy"))
-                Health -= 1;*/
-            if (Health == 0) {
-                
-                Debug.Log("Dead Enemy");
-                Destroy(gameObject);
-            }
-
-
-           
-
+            Health -= 1;
         }
     }
 }
