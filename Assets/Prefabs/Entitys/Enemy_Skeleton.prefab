@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 2139351690}
   - component: {fileID: 8222563442754023483}
   - component: {fileID: 5501467636618700783}
+  - component: {fileID: 847599288}
   m_Layer: 11
   m_Name: Enemy_Skeleton
   m_TagString: Controlable
@@ -149,7 +150,6 @@ MonoBehaviour:
   Health: 1
   enableInput: 1
   spawn: {fileID: 0}
-  controlled: 0
 --- !u!114 &676288784845341770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4936,3 +4936,17 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &847599288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517944794023011353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17c55992722d16944bca1b934481715d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 1
+  animator: {fileID: 1076940140}

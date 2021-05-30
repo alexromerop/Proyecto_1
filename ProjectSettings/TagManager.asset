@@ -12,6 +12,7 @@ TagManager:
   - Pinchos
   - terrain
   - BoxDownGround
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Enemys
   - Player
   - Control
-  - 
+  - Move
   - 
   - 
   - 

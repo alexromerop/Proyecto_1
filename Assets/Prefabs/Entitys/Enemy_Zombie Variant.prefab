@@ -38,6 +38,7 @@ MonoBehaviour:
   zombie: {fileID: 6555396750543998649}
   horizontal: 0
   zombie_pos: {x: 0, y: 0}
+  taken: 0
   timetotake: 0
 --- !u!1001 &3228134484533439136
 PrefabInstance:
@@ -46,6 +47,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 847599288, guid: 216c3d2dc13cbd645b6f20eedeb42a16, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 951025369138084857}
     - target: {fileID: 604074699380311050, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Sprite
@@ -117,15 +122,20 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 951025369138084857}
+    - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: JumpForce
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.698
+      value: -3.562
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.796
+      value: 0.571
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}

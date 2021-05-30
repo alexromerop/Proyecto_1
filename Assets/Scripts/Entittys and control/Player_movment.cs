@@ -70,11 +70,13 @@ public class Player_movment : MonoBehaviour
                     Jump();
             }
 
-           /* if (Input.GetKeyDown("r"))
-            {
-                Hit();
-            }*/
+            /* if (Input.GetKeyDown("r"))
+             {
+                 Hit();
+             }*/
         }
+        
+
         if(Health <= 0)
         {
             Dead();
@@ -90,6 +92,7 @@ public class Player_movment : MonoBehaviour
     private void FixedUpdate()
     {
         Rigidbody2D.velocity = new Vector2(horizontal*Speed, Rigidbody2D.velocity.y);
+
     }
 
     //para estarse en la posicion 
