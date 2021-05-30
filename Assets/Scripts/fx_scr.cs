@@ -41,4 +41,16 @@ public class fx_scr : MonoBehaviour
         
         
     }
+    private void OnParticleCollision(GameObject other)
+    {
+        Debug.Log("stop waadasdasdter");
+
+        if (other.gameObject.tag.Equals("Cogible"))
+        {
+            Debug.Log("stop water");
+
+            
+        }
+
+    }
 }

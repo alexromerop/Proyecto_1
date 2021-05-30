@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1389837437}
   - component: {fileID: 8637241444988765896}
   - component: {fileID: 6338789047294067055}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Box
   m_TagString: Cogible
   m_Icon: {fileID: 0}

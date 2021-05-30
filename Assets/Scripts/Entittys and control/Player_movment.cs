@@ -146,5 +146,16 @@ public class Player_movment : MonoBehaviour
        // else
             //SceneManager.LoadScene(sceneIndex);
     }
+
+    private void OnParticleCollision(GameObject other)
+    {
+        if (other.gameObject.tag.Equals("Water"))
+        {
+            Debug.Log("soplame la nuca");
+
+            Rigidbody2D.AddForce(new Vector3(50f, -100f , 0));
+        }
+        
+    }
 }
 
