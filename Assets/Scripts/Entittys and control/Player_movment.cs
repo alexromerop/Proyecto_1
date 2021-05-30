@@ -123,6 +123,7 @@ public class Player_movment : MonoBehaviour
     private void Dead()
     {
         enableInput = false;
+        Rigidbody2D.bodyType = RigidbodyType2D.Static;
         StartCoroutine(DeadAnimation());
         //SceneManager.LoadScene(sceneIndex);
     }
@@ -144,10 +145,11 @@ public class Player_movment : MonoBehaviour
         Debug.Log("Dead Enemy");
         //audioManager.PlayDeath();
         spawn.GetComponent<Respawn_Entitys>().DEATH();
-       // if (gameObject.tag.Equals("Controlable"))
-            //Destroy(gameObject);
-       // else
-            //SceneManager.LoadScene(sceneIndex);
+        Rigidbody2D.bodyType = RigidbodyType2D.Dynamic;
+        // if (gameObject.tag.Equals("Controlable"))
+        //Destroy(gameObject);
+        // else
+        //SceneManager.LoadScene(sceneIndex);
     }
 
     private void OnParticleCollision(GameObject other)
