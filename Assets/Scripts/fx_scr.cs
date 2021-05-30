@@ -28,4 +28,17 @@ public class fx_scr : MonoBehaviour
         Direction = direction;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("wateer");
+        if (collision.gameObject.layer.Equals("Control"))
+        {
+
+            Debug.Log("wateer");
+
+        }
+           
+        
+        
+    }
 }
