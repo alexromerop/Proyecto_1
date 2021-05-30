@@ -10,8 +10,7 @@ public class fx_scr : MonoBehaviour
 
     private Vector2 Direction;
     private Rigidbody2D rigidbody2d;
-    public GameObject Player;
-    public bool Atacando;
+   
 
     // Start is called before the first frame update
 
