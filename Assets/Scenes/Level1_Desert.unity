@@ -25661,7 +25661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26aa0096db1d57544aca98ca3b169728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numLevel: 1
+  numLevel: 2
   completeLevel: {fileID: 1328564779}
   sprite: {fileID: -7067808830664889489, guid: 9da8331b7e7115747bd03f25dc251da9, type: 3}
   goal: {fileID: 1482727043}
