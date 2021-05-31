@@ -46,6 +46,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 847599288, guid: 216c3d2dc13cbd645b6f20eedeb42a16, type: 3}
+      propertyPath: Speed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 604074699380311050, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_FlipX
@@ -120,7 +124,7 @@ PrefabInstance:
     - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: JumpForce
-      value: 100
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7729572506063768425, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
@@ -185,7 +189,7 @@ PrefabInstance:
     - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_Name
-      value: Enemy_Rat (2)
+      value: Enemy_Rat
       objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011353, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}

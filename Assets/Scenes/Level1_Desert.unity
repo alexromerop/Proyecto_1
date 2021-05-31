@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1555916 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8414621870348008397, guid: fe87adceb50fa174295299c90ba685ab,
-    type: 3}
-  m_PrefabInstance: {fileID: 480216639}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1555917 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8414621870348008394, guid: fe87adceb50fa174295299c90ba685ab,
@@ -1893,16 +1887,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1593859195}
     m_Modifications:
-    - target: {fileID: 1933017717435170804, guid: 98a7e72f94f313d428312549e9ad174a,
-        type: 3}
-      propertyPath: control
-      value: 
-      objectReference: {fileID: 2049852134}
-    - target: {fileID: 1933017717435170804, guid: 98a7e72f94f313d428312549e9ad174a,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 2082780202}
     - target: {fileID: 7314986981789458343, guid: 98a7e72f94f313d428312549e9ad174a,
         type: 3}
       propertyPath: m_Name
@@ -1963,21 +1947,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8715918230084219095, guid: 98a7e72f94f313d428312549e9ad174a,
-        type: 3}
-      propertyPath: JumpForce
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8715918230084219095, guid: 98a7e72f94f313d428312549e9ad174a,
-        type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1703152450}
-    - target: {fileID: 8715918230084219095, guid: 98a7e72f94f313d428312549e9ad174a,
-        type: 3}
-      propertyPath: spawn
-      value: 
-      objectReference: {fileID: 1555916}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a7e72f94f313d428312549e9ad174a, type: 3}
 --- !u!1001 &616619944
@@ -26789,12 +26758,6 @@ GameObject:
 --- !u!4 &1703152448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7314986981789458365, guid: 98a7e72f94f313d428312549e9ad174a,
-    type: 3}
-  m_PrefabInstance: {fileID: 604905366}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1703152450 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 357819267091940729, guid: 98a7e72f94f313d428312549e9ad174a,
     type: 3}
   m_PrefabInstance: {fileID: 604905366}
   m_PrefabAsset: {fileID: 0}
