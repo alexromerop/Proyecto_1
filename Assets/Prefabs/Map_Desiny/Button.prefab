@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3884418058554667313}
   - component: {fileID: 7636782308329726075}
   - component: {fileID: 7055522018333694193}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7642980859614939925, guid: 9da8331b7e7115747bd03f25dc251da9,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -110,6 +110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InteractibleCircle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188137, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5549757026594188140, guid: af155a6b765538b49b1257da39cfd14c,
         type: 3}
@@ -171,6 +176,16 @@ PrefabInstance:
       propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7055522018333694193}
+    - target: {fileID: 5549757026594188143, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.030935407
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549757026594188143, guid: af155a6b765538b49b1257da39cfd14c,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.091549516
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af155a6b765538b49b1257da39cfd14c, type: 3}
 --- !u!4 &7334666296341957787 stripped

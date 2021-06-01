@@ -25918,45 +25918,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1506884256}
-    - target: {fileID: 7334666296341957784, guid: 3f890255e286f8e4db6f705fd5566d36,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334666296341957784, guid: 3f890255e286f8e4db6f705fd5566d36,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.030935407
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334666296341957784, guid: 3f890255e286f8e4db6f705fd5566d36,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.091549516
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334666296341957787, guid: 3f890255e286f8e4db6f705fd5566d36,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334666296341957790, guid: 3f890255e286f8e4db6f705fd5566d36,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7636782308329726075, guid: 3f890255e286f8e4db6f705fd5566d36,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: -4
-      objectReference: {fileID: 0}
     - target: {fileID: 8496194805293076322, guid: 3f890255e286f8e4db6f705fd5566d36,
         type: 3}
       propertyPath: m_Name
       value: Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 8496194805293076322, guid: 3f890255e286f8e4db6f705fd5566d36,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f890255e286f8e4db6f705fd5566d36, type: 3}
