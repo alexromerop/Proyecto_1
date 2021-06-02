@@ -4,8 +4,6 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     public ControlScript control;
-    private float speedX;
-    private float speedY;
     public float speed;
     public GameObject player;
     public GameObject Info_to_show;
