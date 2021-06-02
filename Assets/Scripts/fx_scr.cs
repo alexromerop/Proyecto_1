@@ -43,14 +43,21 @@ public class fx_scr : MonoBehaviour
     }
     private void OnParticleCollision(GameObject other)
     {
-        Debug.Log("stop waadasdasdter");
+        
 
         if (other.gameObject.tag.Equals("Cogible"))
         {
-            Debug.Log("stop water");
+            StartCoroutine(Unset());
 
-            
+
         }
+
+    }
+
+    IEnumerator Unset()
+    {
+        yield return new WaitForSeconds(0.4f);
+        Destroy(this.gameObject);
 
     }
 }

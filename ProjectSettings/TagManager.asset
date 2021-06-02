@@ -13,6 +13,7 @@ TagManager:
   - terrain
   - BoxDownGround
   - Water
+  - Border
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - Control
   - Move
   - Button
-  - 
+  - Border
   - 
   - 
   - 
