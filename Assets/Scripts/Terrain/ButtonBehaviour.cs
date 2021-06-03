@@ -7,6 +7,7 @@ public class ButtonBehaviour : MonoBehaviour
     public GameObject door;
     public GameObject target;
     public Sprite sprite;
+    public ParticleSystem particle;
 
     private Vector3 targetPos;
     private SpriteRenderer renderer;
@@ -14,7 +15,7 @@ public class ButtonBehaviour : MonoBehaviour
     void Start()
     {
         renderer = gameObject.GetComponent<SpriteRenderer>();
-        if(target != null)
+        if (target != null)
         {
             targetPos = target.transform.position;
         }
@@ -23,6 +24,7 @@ public class ButtonBehaviour : MonoBehaviour
     {
         Debug.Log("Open Door");
         door.transform.position = Vector3.MoveTowards(door.transform.position, targetPos, 5);
+        particle_on_object();
         ChangeSprite();
 
     }
@@ -39,4 +41,9 @@ public class ButtonBehaviour : MonoBehaviour
         Debug.Log("Change Sprite");
         renderer.sprite = sprite;
     }
+
+    public void particle_on_object(){
+        particle.Play();
+
+        }
 }
