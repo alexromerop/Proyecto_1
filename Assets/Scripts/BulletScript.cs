@@ -18,9 +18,7 @@ public class BulletScript : MonoBehaviour
     }
     private void Update()
     {
-       
-        
-        Destroy(gameObject, 1.5f);
+        Destroy(gameObject, 3f);
     }
     // Update is called once per frame
     private void FixedUpdate()
@@ -33,17 +31,33 @@ public class BulletScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.up * 100);
-        if (collision.gameObject.GetComponent<Knight>().speed == 1)
+        if (collision.gameObject.tag.Equals("terrain"))
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Direction * 100);
+            Destroy(gameObject);
         }
-        if (collision.gameObject.GetComponent<Knight>().speed == -1)
+        if (collision.gameObject.tag.Equals("Cogible"))
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(collision.gameObject.GetComponent<Knight>().direction * 10);
+            Destroy(gameObject);
         }
-
-
+        if (collision.gameObject.tag.Equals("MainCamera"))
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.up * 100);
+        }
+        if(collision != null && collision.gameObject.tag.Equals("Enemy"))
+        {
+            if (collision.gameObject.GetComponent<Knight>().speed == 1)
+            {
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Direction * 100);
+            }
+            if (collision.gameObject.GetComponent<Knight>().speed == -1)
+            {
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(collision.gameObject.GetComponent<Knight>().direction * 10);
+            }
+        }
         Destroy(gameObject); 
     }
 }

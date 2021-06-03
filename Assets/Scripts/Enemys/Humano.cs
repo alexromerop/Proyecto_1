@@ -16,7 +16,7 @@ public class Humano : MonoBehaviour
 
     private float LastShoot;
     private Rigidbody2D rigidbody2D;
-    private Vector3 direction;
+    [SerializeField] Vector3 direction;
 
     private void Awake()
     {

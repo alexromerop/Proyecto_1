@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4817568267178910458}
   - component: {fileID: 3745405739643827892}
   - component: {fileID: 1999565895751497087}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f043bfada01a369489eb6f96e0036ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 1.5
 --- !u!50 &4817568267178910458
 Rigidbody2D:
   serializedVersion: 4
@@ -110,7 +110,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 0.001
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
