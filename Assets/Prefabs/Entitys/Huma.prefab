@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5034733856756561582}
   - component: {fileID: 1576361294753819537}
   - component: {fileID: 782468945}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Huma
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -141,8 +141,10 @@ MonoBehaviour:
   Bullet: {fileID: 4817568267178910462, guid: 65fc8b49c0e04fb40a2e7266525fe018, type: 3}
   Health: 1
   animator: {fileID: 1576361294753819537}
+  speed: 0
   shoting: 0
   audioManager: {fileID: 0}
+  direction: {x: 0, y: 0, z: 0}
 --- !u!95 &1576361294753819537
 Animator:
   serializedVersion: 3
