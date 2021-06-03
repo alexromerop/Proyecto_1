@@ -1243,10 +1243,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1927176891}
     m_Modifications:
+    - target: {fileID: 604074699380311050, guid: 1bf004b3d5941994db332378b8d36664,
+        type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: Alie.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
