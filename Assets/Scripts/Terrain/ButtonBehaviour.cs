@@ -32,6 +32,8 @@ public class ButtonBehaviour : MonoBehaviour
     public void DestroyObject(GameObject gameObject)
     {
         Debug.Log("Platform destroyed");
+        particle_on_object();
+
         Destroy(gameObject);
         //ChangeSprite();
     }
