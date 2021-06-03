@@ -70,10 +70,10 @@ public class Player_movment : MonoBehaviour
                     Jump();
             }
 
-            /* if (Input.GetKeyDown("r"))
+             if (Input.GetKeyDown("0"))
              {
                  Hit();
-             }*/
+             }
         }
         
 

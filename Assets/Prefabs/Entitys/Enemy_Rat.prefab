@@ -131,6 +131,26 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 357819267091940729}
+    - target: {fileID: 8222563442754023483, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: InitialModule.startColor.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222563442754023483, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0.7028302
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222563442754023483, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.03529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222563442754023483, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 8517944794023011331, guid: 216c3d2dc13cbd645b6f20eedeb42a16,
         type: 3}
       propertyPath: m_LocalPosition.x
