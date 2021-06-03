@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5334178340848402738}
   - component: {fileID: 5334178340848402736}
   - component: {fileID: 5334178340848402737}
+  - component: {fileID: 3104574836890564589}
   m_Layer: 0
   m_Name: knight_1_1_0
   m_TagString: Enemy
@@ -121,6 +122,8 @@ MonoBehaviour:
   - {fileID: 0}
   speed: 1
   isAttacking: 0
+  direction: {x: 0, y: 0, z: 0}
+  distance: 0
 --- !u!50 &5334178340848402736
 Rigidbody2D:
   serializedVersion: 4
@@ -168,3 +171,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.375}
   m_EdgeRadius: 0
+--- !u!70 &3104574836890564589
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5334178340848402742}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.117955685, y: 0.058761954}
+  m_Size: {x: 0.053717613, y: 0.2574761}
+  m_Direction: 0

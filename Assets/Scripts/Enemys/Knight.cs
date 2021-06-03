@@ -9,6 +9,8 @@ public class Knight : MonoBehaviour
     Rigidbody2D rigidbody2D;
     [SerializeField] float speed;
     [SerializeField] bool isAttacking;
+    [SerializeField] Vector3 direction;
+    [SerializeField] float distance;
     
 
     // Start is called before the first frame update
@@ -29,9 +31,13 @@ public class Knight : MonoBehaviour
     {
         for (int i = 0; i < targets.Length; i++)
         {
-            Vector3 direction = targets[i].transform.position - transform.position;
-            float distance = Mathf.Abs(targets[i].transform.position.x - transform.position.x);
-            if (distance < 0.5f && direction.x >= 0.0f)
+            direction = targets[i].transform.position - transform.position;
+            distance = Mathf.Abs(targets[i].transform.position.x - transform.position.x);
+            if (distance < 0.5f && direction.x >= 0.0f && direction.y < 0.5f)
+            {
+                isAttacking = true;
+                animator.SetTrigger("Attack");
+            } else if (distance < 0.5f && direction.x < 0.0f && direction.y < 0.5f)
             {
                 isAttacking = true;
                 animator.SetTrigger("Attack");
@@ -40,7 +46,6 @@ public class Knight : MonoBehaviour
                 isAttacking = false;
             }
         }
-        animator.SetFloat("Speed", speed);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
