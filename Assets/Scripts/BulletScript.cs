@@ -33,6 +33,17 @@ public class BulletScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
+        collision.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.up * 100);
+        if (collision.gameObject.GetComponent<Knight>().speed == 1)
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Direction * 100);
+        }
+        if (collision.gameObject.GetComponent<Knight>().speed == -1)
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(collision.gameObject.GetComponent<Knight>().direction * 10);
+        }
+
+
+        Destroy(gameObject); 
     }
 }

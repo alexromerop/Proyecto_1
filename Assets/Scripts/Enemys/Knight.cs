@@ -6,10 +6,11 @@ public class Knight : MonoBehaviour
 {
     public Animator animator;
     public GameObject[] targets;
+    public int Health;
     Rigidbody2D rigidbody2D;
-    [SerializeField] float speed;
+    public float speed;
     [SerializeField] bool isAttacking;
-    [SerializeField] Vector3 direction;
+    public Vector3 direction;
     [SerializeField] float distance;
     
 
@@ -17,6 +18,7 @@ public class Knight : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+        Health = 3;
     }
 
     private void FixedUpdate()
@@ -46,6 +48,11 @@ public class Knight : MonoBehaviour
                 isAttacking = false;
             }
         }
+        if (Health <= 0)
+        {
+            rigidbody2D.bodyType = RigidbodyType2D.Static;
+            Destroy(this.gameObject);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -53,6 +60,17 @@ public class Knight : MonoBehaviour
         {
             speed *= -1;
             transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.tag.Equals("Bullet"))
+        {
+            
+
+                Health -= 1;
         }
     }
 }
