@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 43414498}
   - component: {fileID: 43414500}
   - component: {fileID: 43414499}
+  - component: {fileID: 43414501}
   m_Layer: 5
   m_Name: CloudBig (1)
   m_TagString: Untagged
@@ -150,12 +151,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 218911171}
-  m_RootOrder: 1
+  m_Father: {fileID: 1499528776}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32, y: 14}
+  m_AnchoredPosition: {x: -32, y: 68}
   m_SizeDelta: {x: 327.3573, y: 152.76674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &43414499
@@ -196,6 +197,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43414497}
   m_CullTransparentMesh: 0
+--- !u!111 &43414501
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43414497}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 787e4d1dc8dca824d8fa4ca5656d37d1, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 787e4d1dc8dca824d8fa4ca5656d37d1, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &57444800
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,61 +363,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93233602}
   m_CullTransparentMesh: 0
---- !u!1 &218911170
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 218911171}
-  - component: {fileID: 218911172}
-  m_Layer: 5
-  m_Name: BigClouds
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &218911171
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218911170}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2051848542}
-  - {fileID: 43414498}
-  - {fileID: 1236640043}
-  m_Father: {fileID: 1499528776}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!111 &218911172
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218911170}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: ff95fda327b232a4593b9b6b52446127, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: ff95fda327b232a4593b9b6b52446127, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &261161399
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +375,7 @@ GameObject:
   - component: {fileID: 261161403}
   - component: {fileID: 261161402}
   - component: {fileID: 261161401}
+  - component: {fileID: 261161404}
   m_Layer: 5
   m_Name: ProtaFinal
   m_TagString: Untagged
@@ -493,6 +456,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261161399}
   m_CullTransparentMesh: 0
+--- !u!114 &261161404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261161399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e57a311fee84924d9add12da85cec5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 2
+  sprites:
+  - {fileID: -1080554493355756316, guid: 79cd8596ca8734b4ea768e3bc1cc8dbd, type: 3}
+  - {fileID: 8297444405556861574, guid: 79cd8596ca8734b4ea768e3bc1cc8dbd, type: 3}
+  - {fileID: 9035257459984780541, guid: 79cd8596ca8734b4ea768e3bc1cc8dbd, type: 3}
+  - {fileID: 7617069811817917502, guid: 79cd8596ca8734b4ea768e3bc1cc8dbd, type: 3}
 --- !u!1 &395658259
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +581,7 @@ RectTransform:
   - {fileID: 1722989853}
   - {fileID: 395658260}
   m_Father: {fileID: 1499528776}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -967,6 +948,7 @@ GameObject:
   - component: {fileID: 1236640043}
   - component: {fileID: 1236640045}
   - component: {fileID: 1236640044}
+  - component: {fileID: 1236640046}
   m_Layer: 5
   m_Name: CloudBig (2)
   m_TagString: Untagged
@@ -985,8 +967,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 218911171}
-  m_RootOrder: 2
+  m_Father: {fileID: 1499528776}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1031,6 +1013,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236640042}
   m_CullTransparentMesh: 0
+--- !u!111 &1236640046
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236640042}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 6df1157a523ac3a43863adfd8ea75969, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 6df1157a523ac3a43863adfd8ea75969, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1288212965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,7 +1061,7 @@ RectTransform:
   - {fileID: 1532887340}
   - {fileID: 1620807704}
   m_Father: {fileID: 1499528776}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1189,10 +1187,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 729966832}
-  - {fileID: 218911171}
   - {fileID: 1288212966}
   - {fileID: 508102755}
   - {fileID: 1567553289}
+  - {fileID: 2051848542}
+  - {fileID: 43414498}
+  - {fileID: 1236640043}
   m_Father: {fileID: 1124038785}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1308,7 +1308,7 @@ RectTransform:
   - {fileID: 93233603}
   - {fileID: 57444801}
   m_Father: {fileID: 1499528776}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1651,6 +1651,7 @@ GameObject:
   - component: {fileID: 2051848542}
   - component: {fileID: 2051848544}
   - component: {fileID: 2051848543}
+  - component: {fileID: 2051848545}
   m_Layer: 5
   m_Name: CloudBig
   m_TagString: Untagged
@@ -1669,8 +1670,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 218911171}
-  m_RootOrder: 0
+  m_Father: {fileID: 1499528776}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1715,6 +1716,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051848541}
   m_CullTransparentMesh: 0
+--- !u!111 &2051848545
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051848541}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: ff95fda327b232a4593b9b6b52446127, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: ff95fda327b232a4593b9b6b52446127, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2059178957
 GameObject:
   m_ObjectHideFlags: 0
