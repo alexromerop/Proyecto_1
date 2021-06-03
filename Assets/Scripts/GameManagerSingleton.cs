@@ -33,6 +33,18 @@ public class GameManagerSingleton : MonoBehaviour
     private void Update()
     {
         scene = SceneManager.GetActiveScene().buildIndex;
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            SceneManager.LoadScene(2);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            SceneManager.LoadScene(3);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SceneManager.LoadScene(4);
+        }
     }
     public void CompleteLevel(int level)
     {

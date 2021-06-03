@@ -1175,7 +1175,7 @@ MonoBehaviour:
   rightx: 100
   downy: 4
   upy: -3
-  cam_heigth: 0.9
+  cam_heigth: 0
 --- !u!81 &252487166
 AudioListener:
   m_ObjectHideFlags: 0
