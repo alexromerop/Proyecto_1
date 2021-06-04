@@ -61,23 +61,6 @@ public class Rat : MonoBehaviour
         Rigidbody2D.velocity = new Vector2(Rigidbody2D.velocity.x, vertical * GetComponent<Player_movment>().Speed);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-
-        if (collision.gameObject.tag.Equals("Bullet") || collision.gameObject.tag.Equals("Enemy"))
-        {
-            if (gameObject.tag.Equals("Controlable"))
-                Health -= 1;
-            if (Health == 0)
-            {
-
-                Debug.Log("Dead Enemy");
-                Destroy(gameObject);
-            }
-
-
-
-        }
-    }
+  
 }
 
