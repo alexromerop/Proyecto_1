@@ -29,7 +29,10 @@ public class ControlScript : MonoBehaviour
         CurrentControl = player;
         camera.SetTarget(player);
         player.GetComponent<Animator>().SetBool("Possesed", true);
-        player.GetComponent<ParticleSystem>().Play();
+        if (player.GetComponent<ParticleSystem>() != null)
+        {
+            player.GetComponent<ParticleSystem>().Play();
+        }
     }
 
     public void UnPosses()
