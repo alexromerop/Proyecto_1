@@ -14,6 +14,7 @@ TagManager:
   - BoxDownGround
   - Water
   - Border
+  - Goal
   layers:
   - Default
   - TransparentFX

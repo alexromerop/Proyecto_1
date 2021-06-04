@@ -32,7 +32,7 @@ public class FinalLevel : MonoBehaviour
         }
     }
 
-    void LevelComplete()
+    public void LevelComplete()
     {
         completeLevel.SetActive(true);
         GameManagerSingleton.instance.CompleteLevel(numLevel);

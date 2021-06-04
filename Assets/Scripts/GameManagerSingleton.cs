@@ -45,6 +45,14 @@ public class GameManagerSingleton : MonoBehaviour
         {
             SceneManager.LoadScene(4);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha9) && scene > 1 && scene < 5)
+        {
+            GameObject goal = GameObject.FindGameObjectWithTag("Goal");
+            if (goal != null)
+            {
+                goal.GetComponent<FinalLevel>().LevelComplete();
+            }
+        }
     }
     public void CompleteLevel(int level)
     {

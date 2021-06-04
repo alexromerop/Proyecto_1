@@ -14357,6 +14357,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1224662508}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &743945742
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Text
+      value: Hi player, your on the last test before you reach heaven and rest in
+        peace. Good Luck!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729761, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_Name
+      value: Diablo_guia
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
 --- !u!1 &754883723
 GameObject:
   m_ObjectHideFlags: 0
@@ -53725,7 +53799,7 @@ GameObject:
   - component: {fileID: 1402592419}
   m_Layer: 0
   m_Name: Goal
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53742,11 +53816,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26aa0096db1d57544aca98ca3b169728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numLevel: 3
-  completeLevel: {fileID: 0}
+  numLevel: 2
+  completeLevel: {fileID: 1301708155}
   sprite: {fileID: -7067808830664889489, guid: 9da8331b7e7115747bd03f25dc251da9, type: 3}
   goal: {fileID: 1402592418}
-  Salir_con_este: {fileID: 0}
+  Salir_con_este: {fileID: 1709105097}
 --- !u!61 &1402592420
 BoxCollider2D:
   m_ObjectHideFlags: 0
