@@ -39,7 +39,6 @@ public class Player_movment : MonoBehaviour
             sceneIndex = GameManagerSingleton.instance.scene; 
         }
         enableInput = true;
-        //animator.SetBool("Possesed", controlled);
     }
 
     // Update is called once per frame
@@ -131,6 +130,7 @@ public class Player_movment : MonoBehaviour
     {
         Rigidbody2D.AddForce(transform.up * Vector2.up);
         Health -= 1;
+        audioManager.PlayHit();
         //poner un  as muerto y un boton para reinicar el nivel, en otro void y en el update un if heal<=0
         //Destroy(gameObject);
     }
@@ -143,7 +143,7 @@ public class Player_movment : MonoBehaviour
     {
         yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 0);
         Debug.Log("Dead Enemy");
-        //audioManager.PlayDeath();
+        audioManager.PlayDeath();
         spawn.GetComponent<Respawn_Entitys>().DEATH();
         Rigidbody2D.bodyType = RigidbodyType2D.Dynamic;
         // if (gameObject.tag.Equals("Controlable"))

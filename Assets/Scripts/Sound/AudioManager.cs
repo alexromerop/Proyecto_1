@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     private AudioSource clicked;
     private AudioSource hit;
     private AudioSource death;
+    private AudioSource arrowShot;
 
     // Start is called before the first frame update
     private void Awake()
@@ -20,13 +21,9 @@ public class AudioManager : MonoBehaviour
         backgroundMusic = mySounds[1];
         hit = mySounds[2];
         death = mySounds[3];
+        arrowShot = mySounds[4];
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     IEnumerator WaitSound(AudioSource audio)
     {
         audio.Play();
@@ -40,6 +37,11 @@ public class AudioManager : MonoBehaviour
     {
         backgroundMusic.Play();
     }
+    public void StopBackground()
+    {
+        backgroundMusic.Pause();
+    }
+
     public void PlayHit()
     {
         hit.Play();
@@ -47,5 +49,9 @@ public class AudioManager : MonoBehaviour
     public void PlayDeath()
     {
         StartCoroutine(WaitSound(death));
+    }
+    public void PlayArrowShot()
+    {
+        arrowShot.Play();
     }
 }

@@ -68,9 +68,9 @@ public class Humano : MonoBehaviour
     }
     private void Shoot(Vector3 directionTarget)
     {
+        audioManager.PlayArrowShot();
         Debug.Log("Shoot");
         Vector3 bulletPosition = transform.position + directionTarget * 0.28f;
-        //audioManager.PlayClicked();
         GameObject instBullet = Instantiate(Bullet, bulletPosition, Quaternion.identity);
         instBullet.GetComponent<BulletScript>().SetDirection(directionTarget);
     }
