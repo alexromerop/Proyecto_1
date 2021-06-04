@@ -31,6 +31,8 @@ public class PlayerScript : MonoBehaviour
     void OnMouseDown()
     {
         control.Posses(gameObject);
+        gameObject.GetComponent<Scr_unpossesed>().enabled = true;
+
         GetComponent<Player_movment>().enabled = true;
         player.SetActive(false);
     }
