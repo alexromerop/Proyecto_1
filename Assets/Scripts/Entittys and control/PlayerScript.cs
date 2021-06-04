@@ -24,6 +24,7 @@ public class PlayerScript : MonoBehaviour
                 Destroy(control.CurrentControl);
             }*/
             control.CurrentControl.GetComponent<Animator>().SetBool("Possesed", false);
+
             StartCoroutine(UnPosses());
             //player.transform.position = control.transform.position;
         }
@@ -38,7 +39,10 @@ public class PlayerScript : MonoBehaviour
     }
     IEnumerator UnPosses()
     {
+
         yield return new WaitForSeconds(0.4f);
+            gameObject.GetComponent<Scr_unpossesed>().enabled = true;
+
         control.UnPosses();
         control.CanControl[0].GetComponent<Player_movment>().enabled = true;
     }
