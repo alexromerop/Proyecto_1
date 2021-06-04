@@ -23,7 +23,7 @@ public class Respawn_Entitys : MonoBehaviour
 
     IEnumerator Esperar()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.4f);
        
             Entity.transform.position = transform.position;
         

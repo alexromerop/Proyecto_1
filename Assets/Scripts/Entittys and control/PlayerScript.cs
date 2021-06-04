@@ -36,7 +36,7 @@ public class PlayerScript : MonoBehaviour
     }
     IEnumerator UnPosses()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
         control.UnPosses();
         control.CanControl[0].GetComponent<Player_movment>().enabled = true;
     }

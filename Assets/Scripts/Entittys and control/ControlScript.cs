@@ -34,6 +34,8 @@ public class ControlScript : MonoBehaviour
 
     public void UnPosses()
     {
+
+        CurrentControl.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         CurrentControl.GetComponent<Player_movment>().enabled = false;
         CanControl[0].transform.position = CurrentControl.transform.position;
         CurrentControl = CanControl[0];
