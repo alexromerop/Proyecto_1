@@ -80,8 +80,10 @@ public class Tuto_daemon : MonoBehaviour
     {
         if (collision.tag.Equals("Player") || collision.tag.Equals("Controlable"))
         {
-
-            daemons_active();
+            if (collision.GetComponent<Player_movment>().isActiveAndEnabled)
+            {
+                daemons_active();
+            }
         }
     }
 

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 203438444}
   - component: {fileID: 203438446}
   - component: {fileID: 203438445}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 547730296}
   - component: {fileID: 547730298}
   - component: {fileID: 547730297}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 1576402015}
   - component: {fileID: 1576402014}
   - component: {fileID: 1576402013}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 2147474503}
   - component: {fileID: 2147474505}
   - component: {fileID: 2147474504}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 436058441765729763}
   - component: {fileID: 1294055524}
   - component: {fileID: 1294055523}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Diablo_guia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5523108772797459307}
   - component: {fileID: 1740048821711401414}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Dialogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

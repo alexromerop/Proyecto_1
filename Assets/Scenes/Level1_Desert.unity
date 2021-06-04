@@ -1002,10 +1002,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 203438443, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 547730295, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1294055523, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
       propertyPath: Next_Daemon
       value: 
       objectReference: {fileID: 92948369}
+    - target: {fileID: 1576402012, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147474502, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2147474504, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
       propertyPath: m_Text
       value: Hi player, rats can climb walls. Use theam at your advantage.
@@ -1070,6 +1086,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Diablo_guia
       objectReference: {fileID: 0}
+    - target: {fileID: 436058441765729762, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 436058441765729763, guid: 9677349bdf5ff2041bcc6e0a400ef463,
         type: 3}
       propertyPath: m_ApplyRootMotion
@@ -1080,6 +1101,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: aeb19a2709dabae4a852e0b10b82048d, type: 2}
+    - target: {fileID: 1288160396898563715, guid: 9677349bdf5ff2041bcc6e0a400ef463,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9677349bdf5ff2041bcc6e0a400ef463, type: 3}
 --- !u!1 &131351920
