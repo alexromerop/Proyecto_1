@@ -24,7 +24,10 @@ public class Scr_unpossesed : MonoBehaviour
         {
             this.gameObject.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }
-
+        if (this.gameObject.transform.localScale.x >= 0 && Speed <= 0)
+        {
+            this.gameObject.transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+        }
     }
     private void FixedUpdate()
     {

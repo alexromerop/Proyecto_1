@@ -113,7 +113,16 @@ public class Player_movment : MonoBehaviour
                 Health -= 1;
             }
         }
+        if (collision.gameObject.tag.Equals("Enemy"))
+        {
+            if (gameObject.tag.Equals("Controlable"))
+            {
+                
+
+                Health -= 1;
+            }
         }
+    }
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Plataform"))
