@@ -5745,7 +5745,7 @@ PrefabInstance:
     - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: Alie.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
@@ -5776,7 +5776,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Alie.Array.data[4]
       value: 
-      objectReference: {fileID: 1868873891}
+      objectReference: {fileID: 2082780202}
     - target: {fileID: 5034733856756561582, guid: 1bf004b3d5941994db332378b8d36664,
         type: 3}
       propertyPath: Prota
@@ -35525,7 +35525,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482727043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.065, y: 0.452, z: 8.73}
+  m_LocalPosition: {x: 18.065, y: 0.452, z: 13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 503585138}
